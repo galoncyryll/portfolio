@@ -1,0 +1,22 @@
+.project-container {
+    width: 100%;
+    height: 100vh;
+    text-align: center;
+}
+
+.project-container h1 {
+    font-size: 7rem;
+    font-family: 'Baron Neue';
+    color: #00af83;
+}
+
+.card-title-style {
+    font-size: 1.5em;
+}
+
+
+@media screen and (max-width: 600px) {
+    .project-container h1 {
+        font-size: 2rem;
+    }
+}

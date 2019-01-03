@@ -1,11 +1,12 @@
 import React, { Component } from 'react';
 import { Grid } from 'react-mdl';
+import Projects from '../projects/projects';
 import './landingpage.css';
 
 class LandingPage extends Component {
     render () {
         return (
-            <div style={{width: '100%', margin: 'auto'}}>
+            <div className='test' style={{width: '100%', margin: 'auto'}}>
                 <Grid className='landing-grid'>
                     <div className='banner-text'>
                         <h1><i className="fas fa-code blocker"></i>CYRYLL JOSEPH GALON</h1>
@@ -53,8 +54,14 @@ class LandingPage extends Component {
                                 <i className="fab fa-linkedin"/>
                             </a>
                         </div>
+                        <div className="arrow bounce">
+                            <a className="fa fa-arrow-down fa-2x" href="#projects"> </a>
+                        </div>
                     </div>
                 </Grid>
+                <div id='projects'>
+                <Projects/>
+                </div>  
             </div>
         );   
     }
