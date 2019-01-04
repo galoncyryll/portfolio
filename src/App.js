@@ -1,33 +1,42 @@
 import React, { Component } from 'react';
-import { Layout, Header, Drawer, Content, Navigation, Switch } from 'react-mdl';
+
 import Main from './components/main/main';
+import NavBar from './components/navbar/navbar';
+import SideDrawer from './components/navbar/sidedrawer/sidedrawer';
+import BackDrop from './components/navbar/sidedrawer/backdrop';
+
 import './App.css';
-import { Link } from 'react-router-dom';
 
 class App extends Component {
+  state = {
+    sideDrawerOpen: false,
+  };
+
+  drawerToggleClickHandler = () => {
+    this.setState((prevState) => {
+      return {sideDrawerOpen: !prevState.sideDrawerOpen};
+    });
+  }
+
+  backDropClickHandler = () => {
+    this.setState({sideDrawerOpen: false});
+  }
+
   render() {
+    let backDrop;
+
+    if (this.state.sideDrawerOpen) {
+      backDrop = <BackDrop click={this.backDropClickHandler}/>;
+    }
     return (
-        <div className="demo-big-content">
-            <Layout>
-                <Header className='header-color' title="CG" scroll>
-                    <Navigation>
-                      <p>Theme</p><Switch id="switch2" defaultChecked></Switch>
-                    </Navigation>
-                </Header>
-                    <Drawer title="CG">
-                      <Navigation>
-                        <Link to="/">Home</Link>
-                        <Link to="/resume">Resume</Link>
-                        <Link to="/aboutme">AboutMe</Link>
-                        <Link to="/contact">Contact</Link>
-                      </Navigation>
-                    </Drawer>
-                    <Content>
-                        <div className="page-content" />
-                        <Main />
-                    </Content>
-              </Layout>
-          </div>       
+        <div className="parent-container">
+            <NavBar drawerClickHandler={this.drawerToggleClickHandler} />
+            <SideDrawer show={this.state.sideDrawerOpen} />
+            {backDrop}
+            <main style={{marginTop: '0'}}>
+            <Main />
+            </main>   
+        </div>       
     );
   }
 }

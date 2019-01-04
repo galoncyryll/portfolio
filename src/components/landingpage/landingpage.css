@@ -1,46 +1,35 @@
-.landing-grid {
-    background: #111112;  /* fallback for old browsers */
-    background: -webkit-linear-gradient(to right, #111112, #232526);  /* Chrome 10-25, Safari 5.1-6 */
-    background: linear-gradient(to right, #111112, #232526); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+.landing-page {
     text-align: center;
+    height: 100%;
+    position: relative;
 }
 
 .banner-text {
     width: 75%;
-    height: 100vh;
+    height: 100%;
     margin: auto;
 }
 
 .banner-text h1 {
     font-size: 7rem;
-    font-family: 'Baron Neue';
     color: #00af83;
+    margin: 0;
 }
 .banner-text h1 i {
     color: #00af83;
     font-size: 100px;
 }
 
-.banner-text h4 {
-    font-family: 'Baron Neue';
+.banner-text h2 {
+    padding: 2rem 0;
 }
 
-.banner-text hr.style-hr {
-    overflow: visible; /* For IE */
-    padding: 0;
-    border: none;
-    border-top: medium double #333;
-    color: #333;
-    text-align: center;
-}
-
-.banner-text hr.style-hr:after {  
-    content: "§";
-    display: inline-block;
-    position: relative;
-    top: -0.7em;
-    font-size: 1.5em;
-    padding: 0 0.25em;
+.banner-text hr.styler {
+    border: 0;
+    height: 1px;
+    background: #333;
+    background-image: linear-gradient(to right, #ccc, #333, #ccc);
+    margin: 2rem 0;
 }
 
 .skills-container {
@@ -49,7 +38,8 @@
     width: 100%;
     align-content: center;
     justify-content: space-evenly;
-    margin: 0 auto;
+    margin: 2rem auto;
+    height: 100%;
 }
 
 .skills-container .skill-title {
@@ -57,7 +47,6 @@
     color: #00af83;
     width: 100%;
     text-transform: uppercase;
-
 }
 
 .skills-container .skill-cards {
@@ -76,13 +65,13 @@
 }
 
 .skills-container .skill-cards i {
-    font-size: 5em;
+    font-size: 3em;
     transition: all ease 300ms;
 }
 
 .skills-container .skill-cards h3 {
     font-family: 'Baron Neue';
-    font-size: 2em;
+    font-size: 1.5em;
     margin: auto;
     transition: all ease 300ms;
 }
@@ -94,6 +83,7 @@
     align-content: center;
     justify-content: space-between;
     margin: auto;
+    padding: 3rem;
 }
 
 .social-links i {
@@ -139,7 +129,7 @@
 }
 
 
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 768px) {
     .banner-text h1 {
         font-size: 2rem;
     }
@@ -148,17 +138,27 @@
         font-size: 1.5rem;
     }
 
+    .skills-container {
+        margin: 1rem auto;
+    }
+
     .skills-container .skill-cards i {
-        font-size: 3em;
+        font-size: 2rem;
     }
 
     .skills-container .skill-cards h3 {
-        font-size: 1.2em;
+        font-size: 1rem;
     }
 
     .social-links i {
         font-size: 3em;
         color: #00af83;
         transition: all ease 300ms;
+    }
+    .banner-text hr.styler {
+        margin: 0;
+    }
+    .social-links {
+        padding: 0
     }
 }

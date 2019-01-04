@@ -1,0 +1,17 @@
+.toggle-button {
+    background: transparent;
+    border: none;
+    cursor: pointer;
+}
+
+.toggle-button:focus {
+    outline:none;
+}
+
+.toggle-button i {
+    font-size: 1.3rem;
+}
+
+.toggle-button i:hover {
+    color: #00af83;
+}

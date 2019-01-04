@@ -1,17 +1,16 @@
 import React, { Component } from 'react';
-import { Grid } from 'react-mdl';
 import Projects from '../projects/projects';
 import './landingpage.css';
 
 class LandingPage extends Component {
     render () {
         return (
-            <div className='test' style={{width: '100%', margin: 'auto'}}>
-                <Grid className='landing-grid'>
+            <div style={{width: '100%', margin: 'auto'}}>
+                <div className='landing-page'>
                     <div className='banner-text'>
                         <h1><i className="fas fa-code blocker"></i>CYRYLL JOSEPH GALON</h1>
-                        <h4>Full Stack Web Developer</h4>
-                        <hr className='style-hr'/>
+                        <h2>Full Stack Web Developer</h2>
+                        <hr className="styler"/>
                         <div className='skills-container'>
                             <div className='skill-cards'>
                                 <i className="fab fa-html5"/>
@@ -42,7 +41,7 @@ class LandingPage extends Component {
                                 <h3>ExpressJS</h3>
                             </div>                
                         </div>
-                        <hr className='style-hr'/>
+                        <hr className="styler"/>
                         <div className='social-links'>
                             <a href='https://github.com/galoncyryll' alt=''>
                                 <i className="fab fa-github-square"/>
@@ -58,7 +57,7 @@ class LandingPage extends Component {
                             <a className="fa fa-arrow-down fa-2x" href="#projects"> </a>
                         </div>
                     </div>
-                </Grid>
+                </div>
                 <div id='projects'>
                 <Projects/>
                 </div>  

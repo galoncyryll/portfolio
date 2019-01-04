@@ -4,16 +4,15 @@
     text-align: center;
 }
 
-.project-container h1 {
+.project-container>h1 {
     font-size: 7rem;
-    font-family: 'Baron Neue';
     color: #00af83;
+    margin: 3rem;
 }
 
-.card-title-style {
-    font-size: 1.5em;
+.project-container a {
+    text-decoration: none;
 }
-
 
 @media screen and (max-width: 600px) {
     .project-container h1 {
