@@ -4,14 +4,24 @@
     text-align: center;
 }
 
-.project-container>h1 {
+.project-container h1 {
     font-size: 7rem;
     color: #00af83;
     margin: 3rem;
+    font-family: 'Baron Neue';
 }
 
 .project-container a {
     text-decoration: none;
+}
+
+.projects-card {
+    display: flex;
+    justify-content: center;
+    flex-flow: row wrap;
+    width: 100%;
+    align-content: center;
+    justify-content: space-evenly;
 }
 
 @media screen and (max-width: 600px) {

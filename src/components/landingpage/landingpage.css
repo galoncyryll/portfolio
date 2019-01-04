@@ -11,9 +11,10 @@
 }
 
 .banner-text h1 {
-    font-size: 7rem;
+    font-size: 6rem;
     color: #00af83;
     margin: 0;
+    font-family: 'Baron Neue';
 }
 .banner-text h1 i {
     color: #00af83;
@@ -21,15 +22,16 @@
 }
 
 .banner-text h2 {
-    padding: 2rem 0;
+    margin: 2rem 0;
+    font-family: 'Baron Neue';
 }
 
-.banner-text hr.styler {
+.banner-text .styler {
     border: 0;
     height: 1px;
     background: #333;
     background-image: linear-gradient(to right, #ccc, #333, #ccc);
-    margin: 2rem 0;
+    margin: 1.7rem 0;
 }
 
 .skills-container {
@@ -38,8 +40,7 @@
     width: 100%;
     align-content: center;
     justify-content: space-evenly;
-    margin: 2rem auto;
-    height: 100%;
+    margin: 1.8rem auto;
 }
 
 .skills-container .skill-title {
@@ -83,7 +84,7 @@
     align-content: center;
     justify-content: space-between;
     margin: auto;
-    padding: 3rem;
+    padding: 2rem;
 }
 
 .social-links i {
@@ -131,7 +132,13 @@
 
 @media screen and (max-width: 768px) {
     .banner-text h1 {
-        font-size: 2rem;
+        font-size: 2.3rem;
+        margin: 0;
+    }
+
+    .banner-text h2 {
+        font-size: 1.5rem;
+        margin: 0;
     }
 
     .banner-text h4 {

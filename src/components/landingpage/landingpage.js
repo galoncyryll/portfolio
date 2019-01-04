@@ -9,7 +9,7 @@ class LandingPage extends Component {
                 <div className='landing-page'>
                     <div className='banner-text'>
                         <h1><i className="fas fa-code blocker"></i>CYRYLL JOSEPH GALON</h1>
-                        <h2>Full Stack Web Developer</h2>
+                        <h2>Full Stack Web DevelOper</h2>
                         <hr className="styler"/>
                         <div className='skills-container'>
                             <div className='skill-cards'>
@@ -43,13 +43,13 @@ class LandingPage extends Component {
                         </div>
                         <hr className="styler"/>
                         <div className='social-links'>
-                            <a href='https://github.com/galoncyryll' alt=''>
+                            <a href='https://github.com/galoncyryll' target="_blank" rel="noopener noreferrer" alt=''>
                                 <i className="fab fa-github-square"/>
                             </a>
-                            <a href='mailto:galoncyryll@gmail.com' alt=''>
+                            <a href='mailto:galoncyryll@gmail.com' target="_blank" rel="noopener noreferrer" alt=''>
                                 <i className="fas fa-envelope"/>
                             </a>
-                            <a href='https://www.linkedin.com/in/cyryll-joseph-galon-461710147/' alt=''>
+                            <a href='https://www.linkedin.com/in/cyryll-joseph-galon-461710147/' target="_blank" rel="noopener noreferrer" alt=''>
                                 <i className="fab fa-linkedin"/>
                             </a>
                         </div>

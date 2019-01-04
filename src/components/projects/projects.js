@@ -13,7 +13,9 @@ class Projects extends Component {
         return (
             <div className='project-container'>
                 <h1>Projects</h1>
-                <ProjectCard /> 
+                <div>
+                    <ProjectCard />
+                </div>
             </div> 
         );   
     }

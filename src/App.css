@@ -23,6 +23,7 @@ body {
     background: -webkit-linear-gradient(to right, #111112, #232526);  /* Chrome 10-25, Safari 5.1-6 */
     background: linear-gradient(to right, #111112, #232526);
     height: 100%;
+    font-family: 'Baron Neue';
 }
 
 .blocker {
