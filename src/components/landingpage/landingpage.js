@@ -5,7 +5,7 @@ import './landingpage.css';
 class LandingPage extends Component {
     render () {
         return (
-            <div style={{width: '100%', margin: 'auto', height: '100%'}}>
+            <div style={{width: '100%', margin: 'auto', height: '100vh'}}>
                 <div className='landing-page'>
                     <div className='banner-text'>
                         <h1><i className="fas fa-code blocker"></i>CYRYLL JOSEPH GALON</h1>

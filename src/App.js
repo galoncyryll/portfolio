@@ -34,7 +34,7 @@ class App extends Component {
             <NavBar drawerClickHandler={this.drawerToggleClickHandler} />
             <SideDrawer show={this.state.sideDrawerOpen} />
             {backDrop}
-            <main style={{marginTop: '0'}}>
+            <main style={{marginTop: '0', height: '100%'}}>
             <Main />
             </main>   
         </div>       

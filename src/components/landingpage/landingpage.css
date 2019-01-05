@@ -1,6 +1,9 @@
 .landing-page {
     text-align: center;
+    min-height: 100%;
     height: 100%;
+    position: relative;
+    padding-top: 3rem;
 }
 
 .landing-page:after {
@@ -30,7 +33,6 @@
 .banner-text h1 i {
     color: #00af83;
     font-size: 100px;
-    margin-top: 2rem;
 }
 
 .banner-text h2 {
@@ -180,7 +182,8 @@
     }
 
     .social-links {
-        padding: 0
+        padding: 0;
+        margin-top: 1.5rem;
     }
 
     .arrow.bounce {
