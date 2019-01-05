@@ -5,6 +5,8 @@ import Main from './components/main/main';
 import NavBar from './components/navbar/navbar';
 import SideDrawer from './components/navbar/sidedrawer/sidedrawer';
 import BackDrop from './components/navbar/sidedrawer/backdrop';
+import Footer from './components/footer/footer';
+
 
 import './App.css';
 
@@ -34,9 +36,10 @@ class App extends Component {
             <NavBar drawerClickHandler={this.drawerToggleClickHandler} />
             <SideDrawer show={this.state.sideDrawerOpen} />
             {backDrop}
-            <main style={{marginTop: '0', height: '100%'}}>
+            {/* <main style={{marginTop: '0', height: '100%', position:'relative'}}> */}
             <Main />
-            </main>   
+            {/* </main>   */}
+            <Footer />
         </div>       
     );
   }

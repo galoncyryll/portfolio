@@ -1,12 +1,24 @@
 .landing-page {
     text-align: center;
     min-height: 100%;
-    height: 100%;
+    height: 100vh;
     position: relative;
-    padding-top: 3rem;
+    padding-top: 2rem;
 }
 
 .landing-page:after {
+    content: "";
+    display: block;
+    position: absolute;
+    z-index: 0;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: 6px;
+    background: #00af83;
+}
+
+.divider {
     content: "";
     display: block;
     position: absolute;
