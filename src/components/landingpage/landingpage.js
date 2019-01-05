@@ -5,12 +5,11 @@ import './landingpage.css';
 class LandingPage extends Component {
     render () {
         return (
-            <div style={{width: '100%', margin: 'auto'}}>
+            <div style={{width: '100%', margin: 'auto', height: '100%'}}>
                 <div className='landing-page'>
                     <div className='banner-text'>
                         <h1><i className="fas fa-code blocker"></i>CYRYLL JOSEPH GALON</h1>
                         <h2>Full Stack Web DevelOper</h2>
-                        <hr className="styler"/>
                         <div className='skills-container'>
                             <div className='skill-cards'>
                                 <i className="fab fa-html5"/>
@@ -19,7 +18,7 @@ class LandingPage extends Component {
                             <div className='skill-cards'>
                                 <i className="fab fa-css3-alt"/>
                                 <h3>CSS3</h3>
-                            </div>
+                            </div>  
                             <div className='skill-cards'>
                                 <i className="fab fa-js-square"/>
                                 <h3>Javascript</h3>
