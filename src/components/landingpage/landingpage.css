@@ -46,7 +46,7 @@
 .skills-container {
     display: flex;
     flex-flow: row wrap;
-    width: 75%;
+    width: 80%;
     align-content: center;
     justify-content: space-evenly;
     margin: 1.8rem auto;

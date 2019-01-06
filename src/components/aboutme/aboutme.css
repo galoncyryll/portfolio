@@ -34,7 +34,7 @@
 .aboutme-body .col-container {
         display: flex;
         flex-flow: row wrap;
-        width: 75%;
+        width: 80%;
         align-content: center;
         justify-content: space-evenly;
         margin: 3rem auto 0 auto;
@@ -187,7 +187,7 @@
     
 @media screen and (max-width: 400px){
         .aboutme-body h1 {
-                font-size: 1.2rem;
+                font-size: 2.5rem;
         }
         .aboutme-body p {
                 font-size: 0.8rem;
@@ -203,12 +203,3 @@
                 min-width: 300px;
         }
 }
-
-/* .aboutme-body {
-
-
-@media screen and (max-width: 768px) {
-        .about-content {
-                margin:0;
-        }
-} */

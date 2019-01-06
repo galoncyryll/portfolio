@@ -8,7 +8,8 @@ import Footer from './components/footer/footer';
 
 import LandingPage from './components/landingpage/landingpage';
 import Projects from './components/projects/projects';
-import AboutMe from './components/aboutme/aboutme.js';
+import AboutMe from './components/aboutme/aboutme';
+import Contact from './components/contact/contact.js';
 
 import './App.css';
 
@@ -56,6 +57,7 @@ class App extends Component {
             <LandingPage />
             <AboutMe />
             <Projects />
+            <Contact />
             <Footer /> 
         </div>       
     );
