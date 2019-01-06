@@ -85,7 +85,8 @@
 /* SKILLS SECTION */
 .skills {
         list-style: none;
-        width: 100%;
+        width: 90%;
+        margin: auto;
 }
 
 .skills li {
@@ -133,73 +134,54 @@
 .express {
         width: 50%;
 }
+/* Media Queries */
+@media screen and (max-width: 900px){
+        .aboutme-body h1 {
+                font-size: 3.5rem;
+        }
+        .aboutme-body p {
+                font-size: 1.2rem;
+        }
+        .skills {
+                margin-bottom: 5rem;
+        }
+        .skills li {
+                margin: 0.9rem 0;
+        }
+}
+    
+@media screen and (max-width: 768px){
+        .aboutme-body h1 {
+                font-size: 3rem;
+        }
+        .aboutme-body p {
+                font-size: 1.0rem;
+        }
+        .skills {
+                margin-bottom: 4rem;
+        }
+        .skills li {
+                margin: 0.8rem 0;
+        }
+}
+    
+@media screen and (max-width: 400px){
+        .aboutme-body p {
+                font-size: 1.2rem;
+        }
+        .aboutme-body p {
+                font-size: 0.8rem;
+        }
+        .skills {
+                margin-bottom: 3rem;
+        }
+        .skills li {
+                margin: 0.7rem 0;
+        }
+}
 
 /* .aboutme-body {
-        margin: auto;
-        width: 100%;
-        min-height: 100%;
-        justify-content: center;
-        padding-top: 1rem;
-        display: block;
-        position: relative;
-}
 
-.aboutme-body:after {
-        content: "";
-        display: block;
-        position: absolute;
-        z-index: 0;
-        bottom: 0;
-        left: 0;
-        width: 100%;
-        height: 6px;
-        background: #00af83;
-}
-
-
-.about-content {
-        vertical-align: middle;
-        text-align: center;;
-        position: relative;
-        z-index: 1;
-        padding: 2.5rem;
-        margin: auto 10rem;
-}
-.profile{
-        margin: auto;
-}
-.profile img {
-        overflow: hidden;
-        border-radius: 50%;
-        width: 220px;
-        height: 220px;
-}
-
-.about-content h2 {
-        font-size: 3em;
-        font-family: 'Baron Neue', sans-serif;
-}
-
-.about-content h2 .full-stack {
-        display: inline;
-        color: #00af83;
-}
-
-.styler {
-        border: 0;
-        height: 1px;
-        background: #333;
-        background-image: linear-gradient(to right, #ccc, #333, #ccc);
-        margin: 1.7rem 0;
-}
-
-.about-content p {
-        width: 75%;
-        margin: auto;
-        padding-top: 1rem;
-        font-family: 'Courier New', sans-serif;
-        font-size: 1.5em;
-}
 
 @media screen and (max-width: 768px) {
         .about-content {
