@@ -16,7 +16,7 @@ class AboutMe extends Component {
                                 I graduated in 2017 with a bachelor’s degree in Information Technology from Centro Escolar University in the Philippines.
                             </p>
                             <p>
-                                I'm passionate about improving user experience by cultivating great and better user interfacesand responsiveness, which results in greater user retention.
+                                I'm passionate about improving user experience by cultivating great and better user interfaces and responsiveness, which results in greater user retention.
                                 <span className='full-stack'> Let's colaborate and make something special! </span>
                             </p>
                         </div>    
@@ -44,6 +44,12 @@ class AboutMe extends Component {
                             </li>
                             <li>
                                 <h3>ExpressJS</h3><span className='bar'><span className='express wow fadeInLeft'></span></span>
+                            </li>
+                            <li>
+                                <h3>Java</h3><span className='bar'><span className='java wow fadeInLeft'></span></span>
+                            </li>
+                            <li>
+                                <h3>PHP</h3><span className='bar'><span className='php wow fadeInLeft'></span></span>
                             </li>
                         </div>
                     </div>

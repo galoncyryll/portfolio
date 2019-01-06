@@ -1,4 +1,169 @@
-.project-container {
+.projects-body {
+    width: 100%;
+    margin: auto auto 3rem auto;
+    display: table;
+    background: rgb(243, 243, 243);
+    font-family: 'Baron Neue',sans-serif;
+    color: #0b0b0c;
+}
+
+.projects-body h1 {
+    text-transform: uppercase;
+    font-size: 4rem;
+    color: #0b0b0c;
+    margin: 2rem 0;
+    padding: 0 0 2rem 0;
+    text-align: center;
+    position: relative;
+}
+
+.projects-body h1:after {
+    content: '';
+    position: absolute;
+    width: 80px;
+    height: 5px;
+    margin-left: -40px;
+    left: 50%;
+    bottom: 0px;
+    background-color: #00af83;
+}
+
+.projects-container {
+    display: flex;
+    flex-flow: row wrap;
+    width: 75%;
+    align-content: center;
+    justify-content: space-evenly;
+    margin: 3rem auto;
+}
+
+.projects-container h2 {
+    color: #00af83;
+}
+
+.projects-container .overlay {
+    width: 100%;
+    height: 30%;
+    position: absolute;
+    margin-top: 300px;
+    padding: 0.8rem 0;
+    background-color: rgba(0,0,0,0.4);
+}
+
+.projects-container .project-card1,
+.projects-container .project-card2,
+.projects-container .project-card3 {
+    width: 450px;
+    height: 270px;
+    margin-bottom: 2rem;
+    background-size: cover;
+    background-position: center;
+    text-align: center;
+    position: relative;
+    transition: filter 0.3s ease-in-out;
+    overflow: hidden;
+}
+
+.projects-container .project-card1:hover .overlay ,
+.projects-container .project-card2:hover .overlay ,
+.projects-container .project-card3:hover .overlay {
+    margin-top: 190px;
+    transition: all 0.2s ease;
+} 
+
+.projects-container .project-card1:hover,
+.projects-container .project-card2:hover,
+.projects-container .project-card3:hover {
+    filter: grayscale(0%);
+}
+
+.projects-container .project-card1 {
+    background-image: url(img/brain.PNG);
+    filter: grayscale(100%);
+}
+
+.projects-container .project-card2 {
+    background-image: url(img/brain.PNG);
+    filter: grayscale(100%);
+}
+
+.projects-container .project-card3 {
+    background-image: url(img/brain.PNG);
+    filter: grayscale(100%);
+}
+
+.overlay a {
+    display: inline-block;
+    font-size: 1.2rem;
+    color: #fff;
+    padding: 10px 20px;
+    text-decoration: none;
+    border: 3px solid #fff;
+    border-radius: 5px;
+    margin: 0 5px;
+}
+
+.overlay a:hover {
+    color: #00af83;
+    border: 3px solid #00af83;
+    transition: all 0.2s ease;
+}
+
+@media screen and (max-width: 900px){
+    .projects h1 {
+            font-size: 3.5rem;
+    }
+    .projects-container .project-card1,
+    .projects-container .project-card2,
+    .projects-container .project-card3 {
+    width: 300px;
+    height: 250px;
+    }
+    .projects-container .project-card1:hover .overlay ,
+    .projects-container .project-card2:hover .overlay ,
+    .projects-container .project-card3:hover .overlay {
+    margin-top: 170px;
+    } 
+    .overlay a {
+        font-size: 1.1rem;
+        padding: 8px 18px;
+    }
+}
+
+@media screen and (max-width: 768px){
+    .projects-body h1 {
+            font-size: 3rem;
+    }
+    .projects-container .project-card1,
+    .projects-container .project-card2,
+    .projects-container .project-card3 {
+    width: 380px;
+    height: 230px;
+    }
+    .overlay a {
+        font-size: 1.0rem;
+        padding: 6px 16px;
+    }
+}
+
+
+@media screen and (max-width: 400px){
+    .projects-body h1 {
+            font-size: 2.5rem;
+    }
+    .projects-container .project-card1,
+    .projects-container .project-card2,
+    .projects-container .project-card3 {
+    width: 360px;
+    height: 210px;
+    }
+    .overlay a {
+        font-size: 0.9rem;
+        padding: 4px 14px;
+    }
+}
+
+/* .project-container {
     margin: auto;
     width: 100%;
     min-height: 100%;
@@ -42,4 +207,4 @@
     .project-container h1 {
         font-size: 2rem;
     }
-}
+} */

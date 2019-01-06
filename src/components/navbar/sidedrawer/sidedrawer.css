@@ -11,6 +11,7 @@
     padding-top: 60px;
     transform: translateX(-100%);
     transition: transform 0.3s ease-out;
+    font-family: 'Baron Neue',sans-serif;
 }
 
 .side-drawer.open {
@@ -29,12 +30,12 @@
     transition: 0.3s;
 }
 
-.side-drawer li:hover {
-    background-color: #111112;
+.side-drawer a:hover {
+    color: #00af83;
 }
 
-.side-drawer li:hover a {
-    color: #00af83;
+.side-drawer a:hover li {
+    background-color: #111112;  
 }
 
 .side-drawer a {

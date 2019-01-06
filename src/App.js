@@ -55,9 +55,7 @@ class App extends Component {
             {backDrop}          
             <LandingPage />
             <AboutMe />
-            <div id='projects'>
-              <Projects />
-            </div>  
+            <Projects />
             <Footer /> 
         </div>       
     );
