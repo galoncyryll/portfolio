@@ -5,55 +5,25 @@
     src: local('Baron Neue'), url('Baron Neue.woff') format('woff');
 }
 
-#root {
-    min-height: 100%;
+html, body, #root, #root>div {
+    margin: 0;
+    padding: 0;
     height: 100%;
-}
-
-html {
-    min-height:100%;
-    position:relative;
-}
-    
-* {
-  margin: 0px;
-  padding: 0px;
-  color: rgb(216, 216, 216);
-  font-family: 'Baron Neue', sans-serif;
-  scroll-behavior: smooth;
-}
-
-.parent-container {
-    height: 100%;
+    width: 100%;
+    color: rgb(228, 228, 228);
+    scroll-behavior: smooth;
+    background: #111112;
+    background: -webkit-linear-gradient(90deg,#111112,#232526);
+    background: -webkit-linear-gradient(left,#111112,#232526);
+    background: linear-gradient(90deg,#111112,#232526);
 }
 
 
-body {
-    background: #111112;  /* fallback for old browsers */
-    background: -webkit-linear-gradient(to right, #111112, #232526);  /* Chrome 10-25, Safari 5.1-6 */
-    background: linear-gradient(to right, #111112, #232526);
-    height: 100%;
-    font-family: 'Baron Neue', sans-serif;
-}
-
-.blocker {
-    display: block;
-}
-
-.header-color {
-    background: #111112;  /* fallback for old browsers */
-    background: -webkit-linear-gradient(to right, #111112, #232526);  /* Chrome 10-25, Safari 5.1-6 */
-    background: linear-gradient(to right, #111112, #232526); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
-}
-
-.menu-toggle {
-    display: none;
-    margin: 15px;
-    font-size: 20px;
-}
-
-@media screen and (max-width: 600px) {
-    .menu-toggle {
-        display: inline-block;
-    }
+.particles {
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    z-index: -1;
 }

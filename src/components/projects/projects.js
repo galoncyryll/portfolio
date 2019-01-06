@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 import ProjectCard from './projectcard';
-import './projects.css';
+//import './projects.css';
 
 class Projects extends Component {
     constructor(props){

@@ -6,6 +6,7 @@
     -webkit-box-shadow: 0 10px 6px -6px rgb(0, 0, 0);
        -moz-box-shadow: 0 10px 6px -6px rgb(0, 0, 0);
             box-shadow: 0 10px 6px -6px rgb(0, 0, 0);
+    font-family: 'Baron Neue',sans-serif;
 }
 
 .toolbar-logo {

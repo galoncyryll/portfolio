@@ -1,14 +1,28 @@
 import React, { Component } from 'react';
+// import Particles from 'react-particles-js';
 
-
-import Main from './components/main/main';
 import NavBar from './components/navbar/navbar';
 import SideDrawer from './components/navbar/sidedrawer/sidedrawer';
 import BackDrop from './components/navbar/sidedrawer/backdrop';
 import Footer from './components/footer/footer';
 
+import LandingPage from './components/landingpage/landingpage';
+import Projects from './components/projects/projects';
+import AboutMe from './components/aboutme/aboutme.js';
 
 import './App.css';
+
+// const particleOptions = {
+//   particles: {
+//     number: {
+//       value: 60,
+//       density: {
+//         enable: true,
+//         value_area: 800
+//       }
+//     }
+//   }
+// }
 
 class App extends Component {
   state = {
@@ -32,14 +46,19 @@ class App extends Component {
       backDrop = <BackDrop click={this.backDropClickHandler}/>;
     }
     return (
-        <div className="parent-container">
+        <div>
+            {/* <Particles className='particles'
+              params={particleOptions}
+            /> */}
             <NavBar drawerClickHandler={this.drawerToggleClickHandler} />
             <SideDrawer show={this.state.sideDrawerOpen} />
-            {backDrop}
-            {/* <main style={{marginTop: '0', height: '100%', position:'relative'}}> */}
-            <Main />
-            {/* </main>   */}
-            <Footer />
+            {backDrop}          
+            <LandingPage />
+            <AboutMe />
+            <div id='projects'>
+              <Projects />
+            </div>  
+            <Footer /> 
         </div>       
     );
   }
