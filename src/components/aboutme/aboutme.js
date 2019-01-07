@@ -15,12 +15,12 @@ class AboutMe extends Component {
                                 I graduated in 2017 with a B.S. in Information Technology from Centro Escolar University in the Philippines.
                             </p>
                             <p className='wow fadeIn'>
-                                I'm passionate about improving user experience by cultivating great and better user interfaces, which results in greater user retention.
-                                <span className='full-stack'> Let's colaborate and make something special! </span>
-                            </p>
-                            <p className='wow fadeIn'>
                             I am highly-motivated, results oriented, self-driven, hard-working, fast learner and smart eager to be a part of the team, learn new technologies, become a valuable employee of the company and bring it success.
                             When I’m not programming, you can find me playing video games or learning and reading more about web development.
+                            </p>
+                            <p className='wow fadeIn'>
+                                I'm passionate about improving user experience by cultivating great and better user interfaces, which results in greater user retention.
+                                <span className='full-stack'> Let's colaborate and make something special! </span>
                             </p>
                         </div>    
                     </div>
