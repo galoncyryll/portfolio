@@ -1,12 +1,7 @@
 import React, { Component } from 'react';
 import './projects.css';
 
-import WOW from 'wowjs';
-
 class Projects extends Component {
-    componentDidMount(){
-        new WOW.WOW().init();
-    }
 
     onClickDiv = () => {
         return true;
@@ -41,7 +36,7 @@ class Projects extends Component {
                             
                             <div className='overlay'>
                                 <a href='https://github.com/galoncyryll/robofriends' target='_blank' rel="noopener noreferrer">GitHub</a>
-                                <a href='#0' target='_blank' rel="noopener noreferrer">Live Demo</a>   
+                                <a href='https://galoncyryll.github.io/robofriends/' target='_blank' rel="noopener noreferrer">Live Demo</a>   
                             </div>
                         </div>
                    </div>
