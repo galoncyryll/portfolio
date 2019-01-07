@@ -1,16 +1,16 @@
 {
   "main.css": "/website-portfolio/static/css/main.0ca3c9dd.chunk.css",
-  "main.js": "/website-portfolio/static/js/main.a0259389.chunk.js",
-  "main.js.map": "/website-portfolio/static/js/main.a0259389.chunk.js.map",
+  "main.js": "/website-portfolio/static/js/main.fa9bcdac.chunk.js",
+  "main.js.map": "/website-portfolio/static/js/main.fa9bcdac.chunk.js.map",
   "static/js/1.215f7fb4.chunk.js": "/website-portfolio/static/js/1.215f7fb4.chunk.js",
   "static/js/1.215f7fb4.chunk.js.map": "/website-portfolio/static/js/1.215f7fb4.chunk.js.map",
   "runtime~main.js": "/website-portfolio/static/js/runtime~main.3a548150.js",
   "runtime~main.js.map": "/website-portfolio/static/js/runtime~main.3a548150.js.map",
   "static/media/myImg.jpg": "/website-portfolio/static/media/myImg.02ee3358.jpg",
-  "static/media/projects.css": "/website-portfolio/static/media/robo.0650664c.PNG",
+  "static/media/projects.css": "/website-portfolio/static/media/portfolio.53e649df.PNG",
   "static/media/App.css": "/website-portfolio/static/media/Baron Neue.edaee91c.woff",
   "static/css/main.0ca3c9dd.chunk.css.map": "/website-portfolio/static/css/main.0ca3c9dd.chunk.css.map",
   "index.html": "/website-portfolio/index.html",
-  "precache-manifest.a6d85ec8bf616303697b9da237a63ae0.js": "/website-portfolio/precache-manifest.a6d85ec8bf616303697b9da237a63ae0.js",
+  "precache-manifest.dd270e7282828b60cd98d7e0deb3bcea.js": "/website-portfolio/precache-manifest.dd270e7282828b60cd98d7e0deb3bcea.js",
   "service-worker.js": "/website-portfolio/service-worker.js"
 }
