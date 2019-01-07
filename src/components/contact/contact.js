@@ -10,16 +10,16 @@ class Contact extends Component {
                 <div className='col-container'>
                     <div className='col-left'>
                         <div className='socials'>
-                            <a className='btn' href='https://github.com/galoncyryll' target='_blank' rel="noopener noreferrer">
+                            <a className='btn wow fadeInDown' data-wow-delay='0.1s' href='https://github.com/galoncyryll' target='_blank' rel="noopener noreferrer">
                                 <i className="fab fa-github" />
                             </a>
-                            <a className='btn' href='https://www.linkedin.com/in/cyryll-joseph-galon-461710147/' target='_blank' rel="noopener noreferrer">
+                            <a className='btn wow fadeInDown' data-wow-delay='0.2s' href='https://www.linkedin.com/in/cyryll-joseph-galon-461710147/' target='_blank' rel="noopener noreferrer">
                                 <i className="fab fa-linkedin-in" />
                             </a>
-                            <a className='btn' href='https://codepen.io/galoncyryll/' target='_blank' rel="noopener noreferrer">
+                            <a className='btn wow fadeInDown' data-wow-delay='0.3s' href='https://codepen.io/galoncyryll/' target='_blank' rel="noopener noreferrer">
                                 <i className="fab fa-codepen" />
                             </a>
-                            <a className='btn' href='https://www.facebook.com/Cjgalon' target='_blank' rel="noopener noreferrer">
+                            <a className='btn wow fadeInDown' data-wow-delay='0.4s' href='https://www.facebook.com/Cjgalon' target='_blank' rel="noopener noreferrer">
                                 <i className="fab fa-facebook-f" />
                             </a>       
                         </div>
