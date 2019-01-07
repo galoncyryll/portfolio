@@ -7,6 +7,11 @@ class Projects extends Component {
     componentDidMount(){
         new WOW.WOW().init();
     }
+
+    onClickDiv = () => {
+        return true;
+    }
+
     render () {
         return (
             <div className='projects-body' id='projects'>
@@ -14,7 +19,7 @@ class Projects extends Component {
                 <div className='projects-container'>
                     <div>
                         <h2>Face Recognition App</h2>
-                        <div onClick='' className='project-card1 wow fadeIn' data-wow-delay='0.1s'>
+                        <div onClick={this.onClickDiv} className='project-card1 wow fadeIn' data-wow-delay='0.1s'>
                             <div className='overlay'>
                                 <a href='#viewproject'>GitHub</a>
                                 <a href='#viewproject'>Live Demo</a>
@@ -23,7 +28,7 @@ class Projects extends Component {
                     </div>
                     <div>
                         <h2>Portfolio</h2>
-                        <div onClick='' className='project-card2 wow fadeIn' data-wow-delay='0.2s'>
+                        <div onClick={this.onClickDiv} className='project-card2 wow fadeIn' data-wow-delay='0.2s'>
                             <div className='overlay'>
                                 <a href='#viewproject'>GitHub</a>
                                 <a href='#viewproject'>Live Demo</a>
@@ -32,7 +37,7 @@ class Projects extends Component {
                     </div>
                    <div>
                         <h2>Robofriends</h2>
-                        <div onClick='' className='project-card3 wow fadeIn' data-wow-delay='0.3s'>
+                        <div onClick={this.onClickDiv} className='project-card3 wow fadeIn' data-wow-delay='0.3s'>
                             
                             <div className='overlay'>
                                 <a href='#viewproject'>GitHub</a>

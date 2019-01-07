@@ -81,6 +81,25 @@
     }
     100% {
         top: -10%;
-    l   left: -10%;
+        left: -10%;
     }
+}
+
+@media screen and (max-width: 900px){
+    .btn {
+        width: 70px;
+        height: 70px;
+    }
+    .btn i {
+        line-height: 70px;
+        font-size: 1.8rem;
+    }
+}
+
+@media screen and (max-width: 768px){
+
+}
+
+@media screen and (max-width: 400px){
+
 }
