@@ -12,7 +12,7 @@
     text-transform: uppercase;
     font-size: 4rem;
     color: #0b0b0c;
-    margin: 2rem 0;
+    margin: 6rem 0 0 0;
     padding: 0 0 2rem 0;
     text-align: center;
     position: relative;
@@ -35,7 +35,7 @@
     width: 80%;
     align-content: center;
     justify-content: space-evenly;
-    margin: 3rem auto;
+    margin: 3rem auto 6rem auto;
 }
 
 .projects-container h2 {

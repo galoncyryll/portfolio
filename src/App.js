@@ -1,5 +1,4 @@
 import React, { Component } from 'react';
-// import Particles from 'react-particles-js';
 
 import NavBar from './components/navbar/navbar';
 import SideDrawer from './components/navbar/sidedrawer/sidedrawer';
@@ -13,17 +12,6 @@ import Contact from './components/contact/contact.js';
 
 import './App.css';
 
-// const particleOptions = {
-//   particles: {
-//     number: {
-//       value: 60,
-//       density: {
-//         enable: true,
-//         value_area: 800
-//       }
-//     }
-//   }
-// }
 
 class App extends Component {
   state = {
@@ -48,12 +36,10 @@ class App extends Component {
     }
     return (
         <div>
-            {/* <Particles className='particles'
-              params={particleOptions}
-            /> */}
+            
             <NavBar drawerClickHandler={this.drawerToggleClickHandler} />
             <SideDrawer show={this.state.sideDrawerOpen} />
-            {backDrop}          
+            {backDrop}      
             <LandingPage />
             <AboutMe />
             <Projects />
