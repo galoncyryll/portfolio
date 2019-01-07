@@ -97,7 +97,6 @@
 .contacts-container p .green {
     display: inline;
     color: #00af83;
-    font-weight: bold;
 }
 
 @keyframes bganim {
@@ -131,9 +130,31 @@
 }
 
 @media screen and (max-width: 768px){
+    .btn {
+        width: 60px;
+        height: 60px;
+    }
+    .btn i {
+        line-height: 60px;
+        font-size: 1.6rem;
+    }
 
+    .contacts-container p {
+        font-size: 0.9rem;
+    }
 }
 
 @media screen and (max-width: 400px){
+    .btn {
+        width: 55px;
+        height: 55px;
+    }
+    .btn i {
+        line-height: 55px;
+        font-size: 1.5rem;
+    }
 
+    .contacts-container p {
+        font-size: 0.8rem;
+    }
 }

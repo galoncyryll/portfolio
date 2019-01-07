@@ -15,3 +15,21 @@ footer {
     font-weight: bold;
     font-size: 1.2rem;
 }
+
+@media screen and (max-width: 900px){
+    footer p {
+        font-size: 1rem;
+    }
+}
+
+@media screen and (max-width: 768px){
+    footer p {
+        font-size: 0.7rem;
+    }
+}
+
+@media screen and (max-width: 400px){
+    footer p {
+        font-size: 0.6rem;
+    }
+}
