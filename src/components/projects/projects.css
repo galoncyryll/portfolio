@@ -59,6 +59,7 @@
     margin-bottom: 2rem;
     background-size: cover;
     background-position: center;
+    border-radius: 10px;
     text-align: center;
     position: relative;
     transition: filter 0.3s ease-in-out;
@@ -84,12 +85,12 @@
 }
 
 .projects-container .project-card2 {
-    background-image: url(img/brain.PNG);
+    background-image: url(img/portfolio.PNG);
     filter: grayscale(100%);
 }
 
 .projects-container .project-card3 {
-    background-image: url(img/brain.PNG);
+    background-image: url(img/robo.PNG);
     filter: grayscale(100%);
 }
 
@@ -141,6 +142,11 @@
     width: 380px;
     height: 230px;
     }
+    .projects-container .project-card1:hover .overlay ,
+    .projects-container .project-card2:hover .overlay ,
+    .projects-container .project-card3:hover .overlay {
+    margin-top: 160px;
+    } 
     .overlay a {
         font-size: 1.0rem;
         padding: 6px 16px;
@@ -158,6 +164,11 @@
     width: 360px;
     height: 210px;
     }
+    .projects-container .project-card1:hover .overlay ,
+    .projects-container .project-card2:hover .overlay ,
+    .projects-container .project-card3:hover .overlay {
+    margin-top: 150px;
+    } 
     .overlay a {
         font-size: 0.9rem;
         padding: 4px 14px;
