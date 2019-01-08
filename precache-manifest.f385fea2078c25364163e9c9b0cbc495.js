@@ -1,10 +1,10 @@
 self.__precacheManifest = [
   {
-    "revision": "0650664ce98a0c48e758f0da07ec91cd",
-    "url": "/website-portfolio/static/media/robo.0650664c.PNG"
+    "revision": "53e649df1fd4372a26cfea897f5e1f3d",
+    "url": "/website-portfolio/static/media/portfolio.53e649df.PNG"
   },
   {
-    "revision": "3d17a7f22966b8c055d6",
+    "revision": "638b5bdb1518f17616e8",
     "url": "/website-portfolio/static/css/main.9b799898.chunk.css"
   },
   {
@@ -20,12 +20,12 @@ self.__precacheManifest = [
     "url": "/website-portfolio/static/media/myImg.02ee3358.jpg"
   },
   {
-    "revision": "3d17a7f22966b8c055d6",
-    "url": "/website-portfolio/static/js/main.3d17a7f2.chunk.js"
+    "revision": "638b5bdb1518f17616e8",
+    "url": "/website-portfolio/static/js/main.638b5bdb.chunk.js"
   },
   {
-    "revision": "53e649df1fd4372a26cfea897f5e1f3d",
-    "url": "/website-portfolio/static/media/portfolio.53e649df.PNG"
+    "revision": "0650664ce98a0c48e758f0da07ec91cd",
+    "url": "/website-portfolio/static/media/robo.0650664c.PNG"
   },
   {
     "revision": "e40d110e3fa87061946ff0e5370f2b9c",
@@ -40,7 +40,7 @@ self.__precacheManifest = [
     "url": "/website-portfolio/static/media/Baron Neue.edaee91c.woff"
   },
   {
-    "revision": "222b1fd68d3a5085c8fc2dc0d619c74a",
+    "revision": "4bb5935c6fd0c909d358cde7e074e8ee",
     "url": "/website-portfolio/index.html"
   }
 ];
