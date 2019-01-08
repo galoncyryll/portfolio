@@ -127,14 +127,14 @@
     .projects-container .project-card2,
     .projects-container .project-card3,
     .projects-container .project-card4 {
-    width: 380px;
-    height: 230px;
+    width: 350px;
+    height: 200px;
     }
     .projects-container .project-card1:hover .overlay,
     .projects-container .project-card2:hover .overlay,
     .projects-container .project-card3:hover .overlay,
     .projects-container .project-card4:hover .overlay {
-    margin-top: 160px;
+    margin-top: 155px;
     } 
     .overlay a {
         font-size: 1.1rem;
@@ -150,14 +150,14 @@
     .projects-container .project-card2,
     .projects-container .project-card3,
     .projects-container .project-card4 {
-    width: 360px;
-    height: 210px;
+    width: 330px;
+    height: 190px;
     }
     .projects-container .project-card1:hover .overlay,
     .projects-container .project-card2:hover .overlay,
     .projects-container .project-card3:hover .overlay,
     .projects-container .project-card4:hover .overlay {
-    margin-top: 145px;
+    margin-top: 135px;
     } 
     .overlay a {
         font-size: 1.0rem;
@@ -174,8 +174,8 @@
     .projects-container .project-card2,
     .projects-container .project-card3,
     .projects-container .project-card4 {
-    width: 340px;
-    height: 190px;
+    width: 310px;
+    height: 160px;
     }
     .projects-container .project-card1:hover .overlay,
     .projects-container .project-card2:hover .overlay,

@@ -38,7 +38,7 @@ class App extends Component {
         <div>
             
             <NavBar drawerClickHandler={this.drawerToggleClickHandler} />
-            <SideDrawer show={this.state.sideDrawerOpen} />
+            <SideDrawer show={this.state.sideDrawerOpen} click={this.backDropClickHandler}/>
             {backDrop}      
             <LandingPage />
             <AboutMe />

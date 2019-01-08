@@ -18,10 +18,7 @@ class Contact extends Component {
                             </a>
                             <a className='btn wow fadeInDown' data-wow-delay='0.3s' href='https://codepen.io/galoncyryll/' target='_blank' rel="noopener noreferrer">
                                 <i className="fab fa-codepen" />
-                            </a>
-                            <a className='btn wow fadeInDown' data-wow-delay='0.4s' href='https://www.facebook.com/Cjgalon' target='_blank' rel="noopener noreferrer">
-                                <i className="fab fa-facebook-f" />
-                            </a>       
+                            </a>    
                         </div>
                     </div>
 
