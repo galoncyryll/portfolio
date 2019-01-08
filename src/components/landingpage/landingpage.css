@@ -20,10 +20,9 @@
 
 .content {
     width: 80%;
+    height: auto;
     margin: 0 auto;
     text-align: center;
-    padding-bottom: 5%;
-    
 }
 
 .content h1 {
@@ -39,7 +38,7 @@
 }
 
 .content h2 {
-    margin: 2.5rem 0;
+    margin: 2.5rem 0 6rem 0;
     font-weight: 100;
 }
 
