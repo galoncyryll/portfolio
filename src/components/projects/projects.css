@@ -53,7 +53,8 @@
 
 .projects-container .project-card1,
 .projects-container .project-card2,
-.projects-container .project-card3 {
+.projects-container .project-card3,
+.projects-container .project-card4 {
     width: 450px;
     height: 270px;
     margin-bottom: 2rem;
@@ -66,30 +67,37 @@
     overflow: hidden;
 }
 
-.projects-container .project-card1:hover .overlay ,
-.projects-container .project-card2:hover .overlay ,
-.projects-container .project-card3:hover .overlay {
+.projects-container .project-card1:hover .overlay,
+.projects-container .project-card2:hover .overlay,
+.projects-container .project-card3:hover .overlay,
+.projects-container .project-card4:hover .overlay  {
     margin-top: 190px;
     transition: all 0.2s ease;
 } 
 
 .projects-container .project-card1:hover,
 .projects-container .project-card2:hover,
-.projects-container .project-card3:hover {
+.projects-container .project-card3:hover,
+.projects-container .project-card4:hover {
     filter: grayscale(0%);
 }
 
 .projects-container .project-card1 {
-    background-image: url(img/brain.PNG);
+    background-image: url(img/Crim.png);
     filter: grayscale(100%);
 }
 
 .projects-container .project-card2 {
-    background-image: url(img/portfolio.PNG);
+    background-image: url(img/brain.PNG);
     filter: grayscale(100%);
 }
 
 .projects-container .project-card3 {
+    background-image: url(img/portfolio.PNG);
+    filter: grayscale(100%);
+}
+
+.projects-container .project-card4 {
     background-image: url(img/robo.PNG);
     filter: grayscale(100%);
 }
@@ -117,13 +125,15 @@
     }
     .projects-container .project-card1,
     .projects-container .project-card2,
-    .projects-container .project-card3 {
+    .projects-container .project-card3,
+    .projects-container .project-card4 {
     width: 380px;
     height: 230px;
     }
-    .projects-container .project-card1:hover .overlay ,
-    .projects-container .project-card2:hover .overlay ,
-    .projects-container .project-card3:hover .overlay {
+    .projects-container .project-card1:hover .overlay,
+    .projects-container .project-card2:hover .overlay,
+    .projects-container .project-card3:hover .overlay,
+    .projects-container .project-card4:hover .overlay {
     margin-top: 160px;
     } 
     .overlay a {
@@ -138,13 +148,15 @@
     }
     .projects-container .project-card1,
     .projects-container .project-card2,
-    .projects-container .project-card3 {
+    .projects-container .project-card3,
+    .projects-container .project-card4 {
     width: 360px;
     height: 210px;
     }
-    .projects-container .project-card1:hover .overlay ,
-    .projects-container .project-card2:hover .overlay ,
-    .projects-container .project-card3:hover .overlay {
+    .projects-container .project-card1:hover .overlay,
+    .projects-container .project-card2:hover .overlay,
+    .projects-container .project-card3:hover .overlay,
+    .projects-container .project-card4:hover .overlay {
     margin-top: 145px;
     } 
     .overlay a {
@@ -160,13 +172,15 @@
     }
     .projects-container .project-card1,
     .projects-container .project-card2,
-    .projects-container .project-card3 {
+    .projects-container .project-card3,
+    .projects-container .project-card4 {
     width: 340px;
     height: 190px;
     }
-    .projects-container .project-card1:hover .overlay ,
-    .projects-container .project-card2:hover .overlay ,
-    .projects-container .project-card3:hover .overlay {
+    .projects-container .project-card1:hover .overlay,
+    .projects-container .project-card2:hover .overlay,
+    .projects-container .project-card3:hover .overlay,
+    .projects-container .project-card4:hover .overlay {
     margin-top: 140px;
     } 
     .overlay a {

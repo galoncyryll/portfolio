@@ -11,7 +11,7 @@ import AboutMe from './components/aboutme/aboutme';
 import Contact from './components/contact/contact.js';
 
 import './App.css';
-
+console.log('%c What brought you here? :) are you a developer? come collaborate with me! galoncyryll@gmail.com', 'background: #222; color: #bada55');
 
 class App extends Component {
   state = {

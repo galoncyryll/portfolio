@@ -13,8 +13,16 @@ class Projects extends Component {
                 <h1>Projects</h1>
                 <div className='projects-container'>
                     <div>
-                        <h2>Face Recognition App</h2>
+                        <h2>CRIM</h2>
                         <div onClick={this.onClickDiv} className='project-card1 wow fadeIn' data-wow-delay='0.1s'>
+                            <div className='overlay'>
+                                <a href='https://github.com/galoncyryll/CRIM' target='_blank' rel="noopener noreferrer">GitHub</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div>
+                        <h2>Face Recognition App</h2>
+                        <div onClick={this.onClickDiv} className='project-card2 wow fadeIn' data-wow-delay='0.2s'>
                             <div className='overlay'>
                                 <a href='https://github.com/galoncyryll/face-recognition-app' target='_blank' rel="noopener noreferrer">GitHub</a>
                                 <a href='https://face-recognition-p.herokuapp.com/' target='_blank' rel="noopener noreferrer">Live Demo</a>
@@ -23,7 +31,7 @@ class Projects extends Component {
                     </div>
                     <div>
                         <h2>Portfolio</h2>
-                        <div onClick={this.onClickDiv} className='project-card2 wow fadeIn' data-wow-delay='0.2s'>
+                        <div onClick={this.onClickDiv} className='project-card3 wow fadeIn' data-wow-delay='0.3s'>
                             <div className='overlay'>
                                 <a href='https://github.com/galoncyryll/website-portfolio' target='_blank' rel="noopener noreferrer">GitHub</a>
                                 <a href='#0'>Live Demo</a>
@@ -32,7 +40,7 @@ class Projects extends Component {
                     </div>
                    <div>
                         <h2>Robofriends</h2>
-                        <div onClick={this.onClickDiv} className='project-card3 wow fadeIn' data-wow-delay='0.3s'>
+                        <div onClick={this.onClickDiv} className='project-card4 wow fadeIn' data-wow-delay='0.4s'>
                             
                             <div className='overlay'>
                                 <a href='https://github.com/galoncyryll/robofriends' target='_blank' rel="noopener noreferrer">GitHub</a>
