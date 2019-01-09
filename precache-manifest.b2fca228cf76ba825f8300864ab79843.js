@@ -1,11 +1,11 @@
 self.__precacheManifest = [
   {
-    "revision": "53e649df1fd4372a26cfea897f5e1f3d",
-    "url": "/website-portfolio/static/media/portfolio.53e649df.PNG"
+    "revision": "0650664ce98a0c48e758f0da07ec91cd",
+    "url": "/website-portfolio/static/media/robo.0650664c.PNG"
   },
   {
-    "revision": "43f76213e9b143388ff3",
-    "url": "/website-portfolio/static/css/main.4ba0d7d6.chunk.css"
+    "revision": "04c99fa17141e41ef5bc",
+    "url": "/website-portfolio/static/css/main.e288fbd1.chunk.css"
   },
   {
     "revision": "48ae492332ba6ad69357",
@@ -20,12 +20,12 @@ self.__precacheManifest = [
     "url": "/website-portfolio/static/media/myImg.02ee3358.jpg"
   },
   {
-    "revision": "43f76213e9b143388ff3",
-    "url": "/website-portfolio/static/js/main.43f76213.chunk.js"
+    "revision": "04c99fa17141e41ef5bc",
+    "url": "/website-portfolio/static/js/main.04c99fa1.chunk.js"
   },
   {
-    "revision": "0650664ce98a0c48e758f0da07ec91cd",
-    "url": "/website-portfolio/static/media/robo.0650664c.PNG"
+    "revision": "53e649df1fd4372a26cfea897f5e1f3d",
+    "url": "/website-portfolio/static/media/portfolio.53e649df.PNG"
   },
   {
     "revision": "e40d110e3fa87061946ff0e5370f2b9c",
@@ -40,7 +40,7 @@ self.__precacheManifest = [
     "url": "/website-portfolio/static/media/Baron Neue.edaee91c.woff"
   },
   {
-    "revision": "cf4719997fbd0243f4564a2b4776c805",
+    "revision": "af8d556426fddd729a875f2f8ede6e7e",
     "url": "/website-portfolio/index.html"
   }
 ];
