@@ -8,7 +8,7 @@ const sideDrawer = (props) => {
     }
     return (
         <nav className={drawerClasses}>
-            <a href="#0" class="close" onClick={props.click}> </a>
+            <a href="#0" className="close" onClick={props.click}> </a>
             <ul>
                 <a href='#header' onClick={props.click}><li>home</li></a>
                 <a href='#about' onClick={props.click}><li>about</li></a>
