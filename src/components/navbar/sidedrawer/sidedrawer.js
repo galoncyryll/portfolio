@@ -1,5 +1,6 @@
 import React from 'react';
 import './sidedrawer.css';
+import Resume from '../../resume/Cyryll_Resume.pdf';
 
 const sideDrawer = (props) => {
     let drawerClasses = 'side-drawer';
@@ -14,7 +15,7 @@ const sideDrawer = (props) => {
                 <a href='#about' onClick={props.click}><li>about</li></a>
                 <a href='#projects' onClick={props.click}><li>projects</li></a>
                 <a href='#contact' onClick={props.click}><li>contact</li></a>
-                <a href='#0' onClick={props.click}><li>resume</li></a>
+                <a href={Resume} target='_blank' rel="noopener noreferrer"><li>resume</li></a>
             </ul>
         </nav>
     );

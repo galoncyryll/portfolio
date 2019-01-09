@@ -2,6 +2,7 @@ import React from 'react';
 
 import DrawerToggleButton from './sidedrawer/drawertogglebutton';
 import './navbar.css';
+import Resume from '../resume/Cyryll_Resume.pdf';
 
 const navBar = (props) => {
     return (
@@ -17,7 +18,7 @@ const navBar = (props) => {
                         <li><a href='#about'>about</a></li>
                         <li><a href='#projects'>projects</a></li>
                         <li><a href='#contact'>contact</a></li>
-                        <li><a href='../resume/' target='_blank'>resume</a></li>
+                        <li><a href={Resume} target='_blank' rel="noopener noreferrer">resume</a></li>
                     </ul>
                 </div>
             </nav>
