@@ -2,7 +2,6 @@ import React from 'react';
 
 import DrawerToggleButton from './sidedrawer/drawertogglebutton';
 import './navbar.css';
-import Resume from '../resume/Cyryll_Resume.pdf';
 
 const navBar = (props) => {
     return (
