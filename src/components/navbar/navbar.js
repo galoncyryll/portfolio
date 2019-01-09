@@ -18,7 +18,7 @@ const navBar = (props) => {
                         <li><a href='#about'>about</a></li>
                         <li><a href='#projects'>projects</a></li>
                         <li><a href='#contact'>contact</a></li>
-                        <li><a href={Resume} target='_blank' rel="noopener noreferrer">resume</a></li>
+                        <li><a href='https://galoncyryll.github.io/resume/' target='_blank' rel="noopener noreferrer">resume</a></li>
                     </ul>
                 </div>
             </nav>
