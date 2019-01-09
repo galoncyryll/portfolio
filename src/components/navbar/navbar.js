@@ -17,7 +17,7 @@ const navBar = (props) => {
                         <li><a href='#about'>about</a></li>
                         <li><a href='#projects'>projects</a></li>
                         <li><a href='#contact'>contact</a></li>
-                        <li><a href='#0'>resume</a></li>
+                        <li><a href='../resume/' target='_blank'>resume</a></li>
                     </ul>
                 </div>
             </nav>
