@@ -58,7 +58,6 @@
     flex-direction: column;
     margin: 10px;
     box-sizing: border-box;
-    flex-basis: 5%;
     min-width: 100px;
 }
 
