@@ -25,7 +25,6 @@ class Contact extends Component {
                     <div className='col-right'>
                         <div className='contacts-container'>
                             <p><span className='green'>Email </span>: galoncyryll@gmail.com</p>
-                            <p><span className='green'>Phone </span>: +1 (661) 343-1254 </p>
                         </div>
                     </div>
                 </div>  
