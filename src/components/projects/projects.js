@@ -48,6 +48,16 @@ class Projects extends Component {
                             </div>
                         </div>
                    </div>
+                   <div>
+                        <h2>cycycy bot (Discord bot)</h2>
+                        <div onClick={this.onClickDiv} className='project-card5 wow fadeIn' data-wow-delay='0.5s'>
+                            
+                            <div className='overlay'>
+                                <a href='https://github.com/galoncyryll/cycycy-bot' target='_blank' rel="noopener noreferrer">GitHub</a>
+                                {/* <a href='https://galoncyryll.github.io/robofriends/' target='_blank' rel="noopener noreferrer">Live Demo</a>    */}
+                            </div>
+                        </div>
+                   </div>
                 </div>       
             </div> 
         );   

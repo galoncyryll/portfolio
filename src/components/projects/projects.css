@@ -54,7 +54,8 @@
 .projects-container .project-card1,
 .projects-container .project-card2,
 .projects-container .project-card3,
-.projects-container .project-card4 {
+.projects-container .project-card4,
+.projects-container .project-card5 {
     width: 450px;
     height: 270px;
     margin-bottom: 2rem;
@@ -70,7 +71,8 @@
 .projects-container .project-card1:hover .overlay,
 .projects-container .project-card2:hover .overlay,
 .projects-container .project-card3:hover .overlay,
-.projects-container .project-card4:hover .overlay  {
+.projects-container .project-card4:hover .overlay,
+.projects-container .project-card5:hover .overlay  {
     margin-top: 190px;
     transition: all 0.2s ease;
 } 
@@ -78,7 +80,8 @@
 .projects-container .project-card1:hover,
 .projects-container .project-card2:hover,
 .projects-container .project-card3:hover,
-.projects-container .project-card4:hover {
+.projects-container .project-card4:hover,
+.projects-container .project-card5:hover {
     filter: grayscale(0%);
 }
 
@@ -99,6 +102,11 @@
 
 .projects-container .project-card4 {
     background-image: url(img/robo.PNG);
+    filter: grayscale(100%);
+}
+
+.projects-container .project-card5 {
+    background-image: url(img/discordbanner.png);
     filter: grayscale(100%);
 }
 
@@ -126,14 +134,16 @@
     .projects-container .project-card1,
     .projects-container .project-card2,
     .projects-container .project-card3,
-    .projects-container .project-card4 {
+    .projects-container .project-card4,
+    .projects-container .project-card5 {
     width: 350px;
     height: 200px;
     }
     .projects-container .project-card1:hover .overlay,
     .projects-container .project-card2:hover .overlay,
     .projects-container .project-card3:hover .overlay,
-    .projects-container .project-card4:hover .overlay {
+    .projects-container .project-card4:hover .overlay,
+    .projects-container .project-card5:hover .overlay {
     margin-top: 125px;
     } 
     .overlay a {
@@ -149,14 +159,16 @@
     .projects-container .project-card1,
     .projects-container .project-card2,
     .projects-container .project-card3,
-    .projects-container .project-card4 {
+    .projects-container .project-card4,
+    .projects-container .project-card5 {
     width: 330px;
     height: 190px;
     }
     .projects-container .project-card1:hover .overlay,
     .projects-container .project-card2:hover .overlay,
     .projects-container .project-card3:hover .overlay,
-    .projects-container .project-card4:hover .overlay {
+    .projects-container .project-card4:hover .overlay,
+    .projects-container .project-card5:hover .overlay {
     margin-top: 105px;
     } 
     .overlay a {
@@ -173,14 +185,16 @@
     .projects-container .project-card1,
     .projects-container .project-card2,
     .projects-container .project-card3,
-    .projects-container .project-card4 {
+    .projects-container .project-card4,
+    .projects-container .project-card5 {
     width: 310px;
     height: 160px;
     }
     .projects-container .project-card1:hover .overlay,
     .projects-container .project-card2:hover .overlay,
     .projects-container .project-card3:hover .overlay,
-    .projects-container .project-card4:hover .overlay {
+    .projects-container .project-card4:hover .overlay,
+    .projects-container .project-card5:hover .overlay {
     margin-top: 110px;
     } 
     .overlay a {
