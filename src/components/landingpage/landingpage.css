@@ -121,8 +121,17 @@
     .content h1 i {
         font-size: 5rem;
     }
-    .skills-container{
+    .content h2 {
+        margin-bottom: 5rem;
+    }
+    .skills-container {
         margin: 1.5rem auto;
+    }
+    .skills-container .skill-cards i {
+        font-size: 2.7em;
+    }
+    .skills-container .skill-cards h3 {
+        font-size: 1.1em;
     }
 }
 
@@ -137,8 +146,17 @@
     .content h1 i {
         font-size: 4rem;
     }
-    .skills-container{
+    .content h2 {
+        margin-bottom: 4rem;
+    }
+    .skills-container {
         margin: 1.3rem auto;
+    }
+    .skills-container .skill-cards i {
+        font-size: 2.4em;
+    }
+    .skills-container .skill-cards h3 {
+        font-size: 1.0em;
     }
 }
 
@@ -153,7 +171,16 @@
     .content h1 i {
         font-size: 4rem;
     }
-    .skills-container{
+    .content h2 {
+        margin-bottom: 3rem;
+    }
+    .skills-container {
         margin: 1.2rem auto;
+    }
+    .skills-container .skill-cards i {
+        font-size: 2.1em;
+    }
+    .skills-container .skill-cards h3 {
+        font-size: 0.9em;
     }
 }
