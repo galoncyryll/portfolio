@@ -4,8 +4,8 @@ self.__precacheManifest = [
     "url": "/website-portfolio/static/media/portfolio.53e649df.PNG"
   },
   {
-    "revision": "28ee83fc7a2809cbaa9f",
-    "url": "/website-portfolio/static/css/main.bed100a4.chunk.css"
+    "revision": "b760e5a34d2104e8ea18",
+    "url": "/website-portfolio/static/css/main.82bdb501.chunk.css"
   },
   {
     "revision": "48ae492332ba6ad69357",
@@ -20,8 +20,8 @@ self.__precacheManifest = [
     "url": "/website-portfolio/static/media/myImg.02ee3358.jpg"
   },
   {
-    "revision": "28ee83fc7a2809cbaa9f",
-    "url": "/website-portfolio/static/js/main.28ee83fc.chunk.js"
+    "revision": "b760e5a34d2104e8ea18",
+    "url": "/website-portfolio/static/js/main.b760e5a3.chunk.js"
   },
   {
     "revision": "0650664ce98a0c48e758f0da07ec91cd",
@@ -40,7 +40,7 @@ self.__precacheManifest = [
     "url": "/website-portfolio/static/media/Baron Neue.edaee91c.woff"
   },
   {
-    "revision": "56d11c9bf20c867de633739cc97e4db5",
+    "revision": "2aac27ec8ebffcc63960eb12b98ae810",
     "url": "/website-portfolio/index.html"
   }
 ];
