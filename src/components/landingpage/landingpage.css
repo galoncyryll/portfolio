@@ -66,12 +66,12 @@
 }
 
 .skills-container .skill-cards i {
-    font-size: 3em;
+    font-size: 3rem;
     transition: all ease 300ms;
 }
 
 .skills-container .skill-cards h3 {
-    font-size: 1.2em;
+    font-size: 1.2rem;
     font-weight: 100;
     margin: auto;
     transition: all ease 300ms;
@@ -128,10 +128,10 @@
         margin: 1.5rem auto;
     }
     .skills-container .skill-cards i {
-        font-size: 2.7em;
+        font-size: 2.7rem;
     }
     .skills-container .skill-cards h3 {
-        font-size: 1.1em;
+        font-size: 1.1rem;
     }
 }
 
@@ -153,10 +153,10 @@
         margin: 1.3rem auto;
     }
     .skills-container .skill-cards i {
-        font-size: 2.4em;
+        font-size: 2.4rem;
     }
     .skills-container .skill-cards h3 {
-        font-size: 1.0em;
+        font-size: 1.0rem;
     }
 }
 
@@ -178,9 +178,9 @@
         margin: 1.2rem auto;
     }
     .skills-container .skill-cards i {
-        font-size: 2.1em;
+        font-size: 2.1rem;
     }
     .skills-container .skill-cards h3 {
-        font-size: 0.9em;
+        font-size: 0.9rem;
     }
 }

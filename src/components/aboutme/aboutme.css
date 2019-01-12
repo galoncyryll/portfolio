@@ -154,7 +154,7 @@
                 margin-top: 1.8rem;
         }
         .aboutme-body p {
-                font-size: 1.2rem;
+                font-size: 1.3rem;
                 padding: 0;
         }
         .skills {
@@ -170,10 +170,10 @@
     
 @media screen and (max-width: 768px){
         .aboutme-body h1 {
-                font-size: 1.5rem;
+                font-size: 2.5rem;
         }
         .aboutme-body p {
-                font-size: 1.0rem;
+                font-size: 1.1rem;
                 padding: 0;
         }
         .skills {
@@ -189,10 +189,10 @@
     
 @media screen and (max-width: 400px){
         .aboutme-body h1 {
-                font-size: 2.5rem;
+                font-size: 1.5rem;
         }
         .aboutme-body p {
-                font-size: 0.8rem;
+                font-size: 0.9rem;
                 padding: 0;
         }
         .skills {
