@@ -89,7 +89,7 @@
 
 .arrow {
     text-align: center;
-    padding-top: 10%;
+    padding: 7% 0;
 }
 .bounce {
     -moz-animation: bounce 2s infinite;

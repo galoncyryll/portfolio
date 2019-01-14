@@ -61,17 +61,6 @@ class LandingPage extends Component {
                         <div className="arrow bounce">
                             <a className="fa fa-arrow-down fa-2x" href="#about"> </a>
                         </div>
-                        {/* <div className='social-links'>
-                            <a href='https://github.com/galoncyryll' target="_blank" rel="noopener noreferrer" alt=''>
-                                <i className="fab fa-github-square"/>
-                            </a>
-                            <a href='mailto:galoncyryll@gmail.com' target="_blank" rel="noopener noreferrer" alt=''>
-                                <i className="fas fa-envelope"/>
-                            </a>
-                            <a href='https://www.linkedin.com/in/cyryll-joseph-galon-461710147/' target="_blank" rel="noopener noreferrer" alt=''>
-                                <i className="fab fa-linkedin"/>
-                            </a>
-                        </div> */}
                     </div>
                 </div>
             </section>
