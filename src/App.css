@@ -16,4 +16,5 @@ html, body, #root, #root>div {
     background: -webkit-linear-gradient(90deg,#111112,#232526);
     background: -webkit-linear-gradient(left,#111112,#232526);
     background: linear-gradient(90deg,#111112,#232526);
+    box-sizing: border-box;
 }
