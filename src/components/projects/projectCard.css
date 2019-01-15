@@ -114,7 +114,7 @@
 }
 
 .project-card .description .project-links .disabled {
-    opacity: 0.65; 
+    opacity: 0.35; 
     cursor: not-allowed;
 }
 
