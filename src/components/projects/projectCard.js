@@ -6,9 +6,14 @@ class ProjectCard extends Component {
     constructor (props){
         super()
     }
+
+    onClickDiv = () => {
+        return true;
+    }
+
     render () {
         return (
-            <div className="project-card">
+            <div className="project-card" onClick={this.onClickDiv}>
                 <div className="meta">
                 <div className="photo" style={{backgroundImage: `url(${this.props.bgImage})`}}></div>
                 <ul className="details">
@@ -33,8 +38,8 @@ class ProjectCard extends Component {
                     <a href={this.props.GitHub} target='_blank' rel="noopener noreferrer">GitHub</a>
                     {
                         this.props.Demo 
-                        ? <a href={this.props.Demo}target='_blank' rel="noopener noreferrer">Live Demo</a>
-                        : false
+                        ? <a href={this.props.Demo} target='_blank' rel="noopener noreferrer">Live Demo</a>
+                        : <a href="#0" className="disabled">Live Demo</a>
                     }  
                 </p>
                 </div>

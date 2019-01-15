@@ -9,10 +9,6 @@ import DiscordBanner from './img/discordbanner.png';
 
 class Projects extends Component {
 
-    onClickDiv = () => {
-        return true;
-    }
-
     render () {
         return (
             <div className='projects-body' id='projects'>
@@ -29,7 +25,7 @@ class Projects extends Component {
                         title='Face Recognition App'
                         bgImage={Brain}
                         description={`A simple app that detects face from the user's input and records the entries to Postgres Database.`}
-                        tech={['HTML5/CSS3', 'Javascript', 'ReactJS', 'NodeJS', 'ExpressJS']}
+                        tech={['HTML5/CSS3', 'Javascript', 'ReactJS', 'NodeJS', 'ExpressJS', 'Clarifai API', 'Heroku']}
                         GitHub='https://github.com/galoncyryll/face-recognition-app'
                         Demo='https://face-recognition-p.herokuapp.com/'
                     />
