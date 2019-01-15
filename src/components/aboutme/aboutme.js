@@ -24,38 +24,6 @@ class AboutMe extends Component {
                             </p>
                         </div>    
                     </div>
-                    {/* <div className='col-right'>
-                        <div className='skills'>
-                            <h2>skills</h2>
-                            <li>
-                                <h3>HTML5</h3><span className='bar'><span className='html wow fadeInLeft'></span></span>
-                            </li>
-                            <li>
-                                <h3>CSS3</h3><span className='bar'><span className='css wow fadeInLeft'></span></span>
-                            </li>
-                            <li>
-                                <h3>Javascript</h3><span className='bar'><span className='js wow fadeInLeft' ></span></span>
-                            </li>
-                            <li>
-                                <h3>React</h3><span className='bar'><span className='react wow fadeInLeft'></span></span>
-                            </li>
-                            <li>
-                                <h3>NodeJS</h3><span className='bar'><span className='node wow fadeInLeft'></span></span>
-                            </li>
-                            <li>
-                                <h3>PostgreSQL</h3><span className='bar'><span className='postgres wow fadeInLeft'></span></span>
-                            </li>
-                            <li>
-                                <h3>ExpressJS</h3><span className='bar'><span className='express wow fadeInLeft'></span></span>
-                            </li>
-                            <li>
-                                <h3>Java</h3><span className='bar'><span className='java wow fadeInLeft'></span></span>
-                            </li>
-                            <li>
-                                <h3>PHP</h3><span className='bar'><span className='php wow fadeInLeft'></span></span>
-                            </li>
-                        </div>
-                    </div> */}
                 </div>
             </div>
         );   

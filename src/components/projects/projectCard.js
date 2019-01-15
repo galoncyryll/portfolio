@@ -13,7 +13,7 @@ class ProjectCard extends Component {
 
     render () {
         return (
-            <div className="project-card" onClick={this.onClickDiv}>
+            <div className="project-card wow fadeIn" data-wow-delay='0.2s' onClick={this.onClickDiv}>
                 <div className="meta">
                 <div className="photo" style={{backgroundImage: `url(${this.props.bgImage})`}}></div>
                 <ul className="details">
