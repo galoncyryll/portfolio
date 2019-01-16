@@ -20,7 +20,7 @@ class AboutMe extends Component {
                             </p>
                             <p className='wow fadeIn'>
                                 I'm passionate about improving user experience by cultivating great and better user interfaces, which results in greater user retention.
-                                <span className='full-stack'> Let's colaborate and make something special! </span>
+                                <span className='full-stack'> Let's collaborate and make something special! </span>
                             </p>
                         </div>    
                     </div>
