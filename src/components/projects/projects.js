@@ -4,7 +4,7 @@ import ProjectCards from './projectCard';
 
 import Brain from './img/brain.PNG';
 import Crim from './img/Crim.png';
-import Portfolio from './img/portfolio.PNG';
+import GitHub from './img/GitHub.PNG';
 import DiscordBanner from './img/discordbanner.png';
 
 class Projects extends Component {
@@ -30,12 +30,12 @@ class Projects extends Component {
                         Demo='https://face-recognition-p.herokuapp.com/'
                     />
                     <ProjectCards 
-                        title='Portfolio'
-                        bgImage={Portfolio}
-                        description={`A website to showcase my skills, projects and my interests for my career. (Constantly updating projects section)`}
-                        tech={['HTML5/CSS3', 'Javascript', 'ReactJS']}
-                        GitHub='https://github.com/galoncyryll/website-portfolio'
-                        Demo='#0'
+                        title='GitHub Profile Finder'
+                        bgImage={GitHub}
+                        description={`A simple searching app that consumes GitHub's API and shows their 5 latest repositories.`}
+                        tech={['HTML5/CSS3', 'Javascript', 'jQuery', 'GitHub API']}
+                        GitHub='https://github.com/galoncyryll/github-profile-finder'
+                        Demo='https://galoncyryll.github.io/github-profile-finder/'
                     />
                     <ProjectCards 
                         title='cycycy Bot (Discord Bot)'

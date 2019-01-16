@@ -1,4 +1,6 @@
 import React, { Component } from 'react';
+import WOW from 'wowjs';
+
 
 import NavBar from './components/navbar/navbar';
 import SideDrawer from './components/navbar/sidedrawer/sidedrawer';
@@ -17,6 +19,12 @@ class App extends Component {
   state = {
     sideDrawerOpen: false,
   };
+
+  componentDidMount() {
+    new WOW.WOW({
+        live: false
+    }).init();
+  }
 
   drawerToggleClickHandler = () => {
     this.setState((prevState) => {

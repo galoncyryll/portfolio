@@ -1,9 +1,10 @@
+@import url('https://fonts.googleapis.com/css?family=Exo+2');
 .intro {
     height: 100%;
     width: 100%;
     margin: auto;
     display: table;
-    font-family: 'Baron Neue',sans-serif;
+    font-family: 'Exo 2', sans-serif;
     background: #111112;
     background: -webkit-linear-gradient(90deg,#111112,#232526);
     background: -webkit-linear-gradient(left,#111112,#232526);
@@ -23,9 +24,11 @@
     height: auto;
     margin: 0 auto;
     text-align: center;
+
 }
 
 .content h1 {
+    font-family: 'Baron Neue',sans-serif;
     font-size: 4rem;
     color: #00af83;
     margin-top: 8rem;
