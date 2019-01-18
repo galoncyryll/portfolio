@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 import './projects.css';
-import ProjectCards from './projectCard';
+import ProjectCards from './projectCard/projectCard';
 
 import Brain from './img/brain.PNG';
 import Crim from './img/Crim.png';
@@ -8,7 +8,6 @@ import GitHub from './img/GitHub.PNG';
 import DiscordBanner from './img/discordbanner.png';
 
 class Projects extends Component {
-
     render () {
         return (
             <div className='projects-body' id='projects'>
@@ -44,7 +43,8 @@ class Projects extends Component {
                         tech={['NodeJS', 'DiscordJS', 'Javascript']}
                         GitHub='https://github.com/galoncyryll/cycycy-bot'
                     />
-                </div>     
+                </div> 
+ 
             </div> 
         );   
     }

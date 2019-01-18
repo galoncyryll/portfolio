@@ -2,13 +2,11 @@ import React, { Component } from 'react';
 import './projectCard.css';
 
 
-class ProjectCard extends Component {
-    constructor (props){
-        super()
-    }
 
+
+class ProjectCard extends Component {
     onClickDiv = () => {
-        return true;
+        return true; //fixes hover issue on iOS
     }
 
     render () {
@@ -44,6 +42,7 @@ class ProjectCard extends Component {
                 </p>
                 </div>
             </div>
+            
         )
     }
 }
