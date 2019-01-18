@@ -16,14 +16,14 @@ class Projects extends Component {
                     <ProjectCards 
                         title='CRIM'
                         bgImage={Crim}
-                        description={`An app for providing reservations and storing dental patients information for the CEU Dentistry Dept.`}
+                        description={`A full functional system for providing reservations and storing dental patients information for the CEU Dentistry Department`}
                         tech={['HTML5/CSS3', 'Javascript', 'Java', 'MySQL']}
                         GitHub='https://github.com/galoncyryll/CRIM'
                     />
                     <ProjectCards 
                         title='Face Recognition App'
                         bgImage={Brain}
-                        description={`A simple app that detects face from the user's input and records the entries to Postgres Database.`}
+                        description={`App that detects face from the user's input and records the entries to Postgres Database.`}
                         tech={['HTML5/CSS3', 'Javascript', 'ReactJS', 'NodeJS', 'ExpressJS', 'Clarifai API', 'Heroku']}
                         GitHub='https://github.com/galoncyryll/face-recognition-app'
                         Demo='https://face-recognition-p.herokuapp.com/'
@@ -39,8 +39,8 @@ class Projects extends Component {
                     <ProjectCards 
                         title='cycycy Bot (Discord Bot)'
                         bgImage={DiscordBanner}
-                        description={`A bot to moderate my own discord server. (Bot is in early stages and still in development)`}
-                        tech={['NodeJS', 'DiscordJS', 'Javascript']}
+                        description={`A bot to moderate Discord servers with few awesome features. (Bot is in early stages and still in development)`}
+                        tech={['NodeJS', 'DiscordJS', 'Javascript', 'Google Translation API']}
                         GitHub='https://github.com/galoncyryll/cycycy-bot'
                     />
                 </div> 
