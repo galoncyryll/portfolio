@@ -24,7 +24,7 @@ class Projects extends Component {
                                         key={data.title}
                                         title={data.title}
                                         bgImage={data.bgImg}
-                                        description={`A fully functional system for providing reservations and storing dental patients information for the CEU Dentistry Department`}
+                                        description={data.description}
                                         tech={data.tech}
                                         GitHub={data.GitHub}
                                         Demo={data.Demo}
