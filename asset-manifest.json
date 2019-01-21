@@ -1,15 +1,15 @@
 {
-  "main.css": "/website-portfolio/static/css/main.751619ed.chunk.css",
-  "main.js": "/website-portfolio/static/js/main.0b1b9a46.chunk.js",
-  "main.js.map": "/website-portfolio/static/js/main.0b1b9a46.chunk.js.map",
+  "main.css": "/website-portfolio/static/css/main.b739beb8.chunk.css",
+  "main.js": "/website-portfolio/static/js/main.5bc3265d.chunk.js",
+  "main.js.map": "/website-portfolio/static/js/main.5bc3265d.chunk.js.map",
   "static/js/1.48ae4923.chunk.js": "/website-portfolio/static/js/1.48ae4923.chunk.js",
   "static/js/1.48ae4923.chunk.js.map": "/website-portfolio/static/js/1.48ae4923.chunk.js.map",
   "runtime~main.js": "/website-portfolio/static/js/runtime~main.3a548150.js",
   "runtime~main.js.map": "/website-portfolio/static/js/runtime~main.3a548150.js.map",
-  "static/css/main.751619ed.chunk.css.map": "/website-portfolio/static/css/main.751619ed.chunk.css.map",
+  "static/css/main.b739beb8.chunk.css.map": "/website-portfolio/static/css/main.b739beb8.chunk.css.map",
   "static/media/myImg.jpg": "/website-portfolio/static/media/myImg.02ee3358.jpg",
   "static/media/App.css": "/website-portfolio/static/media/Baron Neue.edaee91c.woff",
   "index.html": "/website-portfolio/index.html",
-  "precache-manifest.739c6cfc6083b8fa7d59336855ea0070.js": "/website-portfolio/precache-manifest.739c6cfc6083b8fa7d59336855ea0070.js",
+  "precache-manifest.d3af16e618c2372bd1727e463ef428c7.js": "/website-portfolio/precache-manifest.d3af16e618c2372bd1727e463ef428c7.js",
   "service-worker.js": "/website-portfolio/service-worker.js"
 }
