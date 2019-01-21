@@ -122,6 +122,7 @@
 .project-card p {
     position: relative;
     margin-top: 4rem;
+    display: inline-block;
 }
 
 .project-card p:first-of-type {
