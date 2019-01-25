@@ -5,10 +5,6 @@
     margin: auto;
     display: table;
     font-family: 'Exo 2', sans-serif;
-    background: #111112;
-    background: -webkit-linear-gradient(90deg,#111112,#232526);
-    background: -webkit-linear-gradient(left,#111112,#232526);
-    background: linear-gradient(90deg,#111112,#232526);
     border-bottom: 5px solid #00af83;
     outline: none;
 }

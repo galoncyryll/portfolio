@@ -63,7 +63,8 @@ export const projectData = [
             'NodeJS', 
             'DiscordJS', 
             'Javascript', 
-            'Google Translation API'
+            'Google Translation API',
+            'WikiPedia API' 
         ],
         GitHub: "https://github.com/galoncyryll/cycycy-bot"
     }
