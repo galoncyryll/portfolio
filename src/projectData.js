@@ -9,12 +9,13 @@ export const projectData = [
             'Java', 
             'MySQL'
         ],
-        GitHub: "https://github.com/galoncyryll/CRIM"
+        GitHub: "https://github.com/galoncyryll/CRIM",
+        Featured: true
     },
     {
         title: "Face Recognition App",
         bgImg: "img/brain.PNG",
-        description: "App that detects face from the user's input and records the entries to Postgres Database.",
+        description: "App that detects face from the user's input and records the entries to Postgres Database. The App uses the Clarifai API to get the Face regions of the user's input.",
         tech: [
             'HTML5/CSS3', 
             'ES6+', 
@@ -25,7 +26,8 @@ export const projectData = [
             'Heroku'
         ],
         GitHub: "https://github.com/galoncyryll/face-recognition-app",
-        Demo: "https://face-recognition-p.herokuapp.com/"
+        Demo: "https://face-recognition-p.herokuapp.com/",
+        Featured: true
     },
     {
         title: "cystore (eCommerce project)",
@@ -36,11 +38,24 @@ export const projectData = [
             'ES6+', 
             'ReactJS', 
             'PayPal Express Checkout', 
-            'React Context API', 
+            'React Context API',
+            'React Router', 
             'Netlify'
         ],
         GitHub: "https://github.com/galoncyryll/cystore",
-        Demo: "https://cystore.netlify.com/"
+        Demo: "https://cystore.netlify.com/",
+        Featured: true
+    },
+    {
+        title: "Startup Landing Page",
+        bgImg: "img/startup.PNG",
+        description: "Startup landing page converted from bootstrap's example site to AMP (Accelerated Mobile Pages)",
+        tech: [
+            'HTML5/CSS3', 
+            'AMP'
+        ],
+        GitHub: "https://github.com/galoncyryll/dopwebtest",
+        Demo: "https://galoncyryll.github.io/dopwebtest",
     },
     {
         title: "GitHub Profile Finder",

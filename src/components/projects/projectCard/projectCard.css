@@ -116,6 +116,24 @@
     cursor: not-allowed;
 }
 
+.project-card .description .featured {
+    position: absolute;
+    right: 120px;
+    bottom: 60px;
+}
+
+.project-card .description .featured .featured-card {
+    position: absolute;
+    display: block;
+    transform: rotate(-45deg);
+    width: 160px;
+    padding: 10px 0;
+    background-color: #00af83;
+    text-align: center;
+    box-shadow: 0 5px 5px rgba(0,0,0,0.2);
+    color: #fff;
+    font-weight: 600;
+}
 
 .project-card p {
     position: relative;

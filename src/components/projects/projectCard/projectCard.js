@@ -40,6 +40,14 @@ class ProjectCard extends Component {
                         : <a href="#0" className="disabled">Live Demo</a>
                     }  
                 </p>
+                { this.props.Featured 
+                ? <div className="featured">
+                    <span className="featured-card">
+                        FEATURED
+                    </span>
+                </div> 
+                : false 
+                }
                 </div>
             </div>
             

@@ -28,6 +28,7 @@ class Projects extends Component {
                                         tech={data.tech}
                                         GitHub={data.GitHub}
                                         Demo={data.Demo}
+                                        Featured={data.Featured}
                                 />
                         })
                     }   
