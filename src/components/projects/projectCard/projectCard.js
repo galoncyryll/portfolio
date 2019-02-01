@@ -31,7 +31,7 @@ class ProjectCard extends Component {
                 </div>
                 <div className="description">
                 <h2>{this.props.title}</h2>
-                <p>{this.props.description}</p>
+                <p className="desc">{this.props.description}</p>
                 <p className="project-links">
                     <a href={this.props.GitHub} target='_blank' rel="noopener noreferrer">GitHub</a>
                     {
