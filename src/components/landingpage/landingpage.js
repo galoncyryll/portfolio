@@ -33,25 +33,25 @@ class LandingPage extends Component {
                                 <h3>NodeJS</h3>
                             </div> 
                             <div className='skill-cards wow fadeInDown' data-wow-delay='0.6s'>
-                                <i className="fas fa-database"/>
-                                <h3>PostgreSQL</h3>
-                            </div>  
-                            <div className='skill-cards wow fadeInDown' data-wow-delay='0.7s'>
-                                <i className="fas fa-server"/>
-                                <h3>ExpressJS</h3>
-                            </div> 
-                            <div className='skill-cards wow fadeInDown' data-wow-delay='0.8s'>
                                 <i className="fab fa-java" />
                                 <h3>Java</h3>
                             </div>
-                            <div className='skill-cards wow fadeInDown' data-wow-delay='0.9s'>
+                            <div className='skill-cards wow fadeInDown' data-wow-delay='0.7s'>
                                 <i className="fab fa-php" />
                                 <h3>PHP</h3>
                             </div>
-                            <div className='skill-cards wow fadeInDown' data-wow-delay='1s'>
+                            <div className='skill-cards wow fadeInDown' data-wow-delay='0.8s'>
                                 <i className="fas fa-database" />
                                 <h3>MySQL</h3>
-                            </div>               
+                            </div> 
+                            <div className='skill-cards wow fadeInDown' data-wow-delay='0.9s'>
+                                <i className="fas fa-database"/>
+                                <h3>MongoDB</h3>
+                            </div> 
+                            <div className='skill-cards wow fadeInDown' data-wow-delay='1s'>
+                                <i className="fas fa-database"/>
+                                <h3>PostgreSQL</h3>
+                            </div>                
                         </div>
                         <div className="arrow bounce">
                             <a className="fa fa-arrow-down fa-2x" href="#about"> </a>
