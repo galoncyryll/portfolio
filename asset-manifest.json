@@ -1,16 +1,16 @@
 {
   "files": {
-    "main.css": "/portfolio/static/css/main.b7d0d3ce.chunk.css",
-    "main.js": "/portfolio/static/js/main.44df6747.chunk.js",
-    "main.js.map": "/portfolio/static/js/main.44df6747.chunk.js.map",
-    "runtime~main.js": "/portfolio/static/js/runtime~main.f308c8e6.js",
-    "runtime~main.js.map": "/portfolio/static/js/runtime~main.f308c8e6.js.map",
-    "static/js/2.dbc365ad.chunk.js": "/portfolio/static/js/2.dbc365ad.chunk.js",
-    "static/js/2.dbc365ad.chunk.js.map": "/portfolio/static/js/2.dbc365ad.chunk.js.map",
-    "index.html": "/portfolio/index.html",
-    "precache-manifest.1b9d1a532fe6f6789fd61df9dce97fcc.js": "/portfolio/precache-manifest.1b9d1a532fe6f6789fd61df9dce97fcc.js",
-    "service-worker.js": "/portfolio/service-worker.js",
-    "static/css/main.b7d0d3ce.chunk.css.map": "/portfolio/static/css/main.b7d0d3ce.chunk.css.map",
-    "static/media/App.css": "/portfolio/static/media/Baron Neue.edaee91c.woff"
+    "main.css": "www.cycycy.me/static/css/main.80779fa3.chunk.css",
+    "main.js": "www.cycycy.me/static/js/main.c3eebc3f.chunk.js",
+    "main.js.map": "www.cycycy.me/static/js/main.c3eebc3f.chunk.js.map",
+    "runtime~main.js": "www.cycycy.me/static/js/runtime~main.f15d93c0.js",
+    "runtime~main.js.map": "www.cycycy.me/static/js/runtime~main.f15d93c0.js.map",
+    "static/js/2.dbc365ad.chunk.js": "www.cycycy.me/static/js/2.dbc365ad.chunk.js",
+    "static/js/2.dbc365ad.chunk.js.map": "www.cycycy.me/static/js/2.dbc365ad.chunk.js.map",
+    "index.html": "www.cycycy.me/index.html",
+    "precache-manifest.d292ae37074265bab362638a2b7f0d25.js": "www.cycycy.me/precache-manifest.d292ae37074265bab362638a2b7f0d25.js",
+    "service-worker.js": "www.cycycy.me/service-worker.js",
+    "static/css/main.80779fa3.chunk.css.map": "www.cycycy.me/static/css/main.80779fa3.chunk.css.map",
+    "static/media/App.css": "www.cycycy.me/static/media/Baron Neue.edaee91c.woff"
   }
 }
