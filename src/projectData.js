@@ -1,5 +1,23 @@
 export const projectData = [
     {
+        title: "cycycy Bot (Discord Bot)",
+        bgImg: "img/discordbanner.png",
+        description: "A bot to moderate Discord servers with few awesome features. (Bot is in early stages and still in development)",
+        tech: [
+            'ReactJS',
+            'NodeJS', 
+            'GraphQL',
+            'Apollo',
+            'MongoDB',
+            'DiscordJS', 
+            'Google Translation API',
+            'WikiPedia API' 
+        ],
+        GitHub: "https://github.com/cycycy-bot/cycycy-bot",
+        Demo: "https://bot.cycycy.me",
+        Featured: true,
+    },
+    {
         title: "CRIM",
         bgImg: 'img/Crim.png',
         description: "A fully functional system for providing reservations and storing dental patients information for the CEU Dentistry Department",
@@ -44,7 +62,6 @@ export const projectData = [
         ],
         GitHub: "https://github.com/galoncyryll/cystore",
         Demo: "https://cystore.netlify.com/",
-        Featured: true
     },
     {
         title: "Startup Landing Page",
@@ -70,17 +87,4 @@ export const projectData = [
         GitHub: "https://github.com/galoncyryll/github-profile-finder",
         Demo: "https://galoncyryll.github.io/github-profile-finder/"
     },
-    {
-        title: "cycycy Bot (Discord Bot)",
-        bgImg: "img/discordbanner.png",
-        description: "A bot to moderate Discord servers with few awesome features. (Bot is in early stages and still in development)",
-        tech: [
-            'NodeJS', 
-            'DiscordJS', 
-            'Javascript', 
-            'Google Translation API',
-            'WikiPedia API' 
-        ],
-        GitHub: "https://github.com/galoncyryll/cycycy-bot"
-    }
   ];

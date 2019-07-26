@@ -9,7 +9,7 @@ class LandingPage extends Component {
                     <div className='content'>
                         <div className='wow fadeInDown'>
                             <h1 ><i className="fas fa-code blocker"></i>CYRYLL JOSEPH GALON</h1>
-                            <h2>Full Stack Web Developer</h2>
+                            <h2>Full Stack Developer</h2>
                         </div>
                         <div className='skills-container'>
                             <div className='skill-cards wow fadeInDown' data-wow-delay='0.2s'>
