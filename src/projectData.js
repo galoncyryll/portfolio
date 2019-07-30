@@ -13,7 +13,7 @@ export const projectData = [
             'Google Translation API',
             'WikiPedia API' 
         ],
-        GitHub: "https://github.com/cycycy-bot/cycycy-bot",
+        GitHub: "https://github.com/cycycy-bot",
         Demo: "https://bot.cycycy.me",
         Featured: true,
     },
