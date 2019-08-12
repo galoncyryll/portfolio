@@ -8,7 +8,7 @@ class AboutMe extends Component {
                 <div className='col-container'>
                     <div className='col-left'>
                         <div className='profile'>
-                            <h1 className='wow fadeIn'>Hi there! I'm Cyryll Galon -<span className='full-stack'> A self-taught Web Developer. </span></h1>
+                            <h1 className='wow fadeIn'>Hi there! I'm Cyryll Galon -<span className='full-stack'> A self-taught Software Developer. </span></h1>
                             <p className='wow fadeIn'>  
                                 I graduated in 2017 with a B.S. in Information Technology from Centro Escolar University in the Philippines.
                             </p>
