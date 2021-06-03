@@ -1,14 +1,17 @@
 import React from 'react';
-
-import DrawerToggleButton from './sidedrawer/drawertogglebutton';
+import DrawerToggleButton from './sidedrawer/DrawerToggleButton';
 import './navbar.css';
 
-const navBar = (props) => {
+interface Props {
+    drawerClickHandler: (() => void)
+}
+
+const NavBar: React.FC<Props> = ({drawerClickHandler} : Props) => {
     return (
         <header className='toolbar'>
             <nav className='toolbar-nav'>
                 <div className='toolbar-toggle-button'>
-                    <DrawerToggleButton click={props.drawerClickHandler}/>
+                    <DrawerToggleButton click={drawerClickHandler}/>
                 </div>
                 <div className='toolbar-logo'><a href='#header'>CG</a></div>
                 <div className='spacer'/>
@@ -17,7 +20,6 @@ const navBar = (props) => {
                         <li><a href='#about'>about</a></li>
                         <li><a href='#projects'>projects</a></li>
                         <li><a href='#contact'>contact</a></li>
-                        <li><a href='https://galoncyryll.github.io/resume/' target='_blank' rel="noopener noreferrer">resume</a></li>
                     </ul>
                 </div>
             </nav>
@@ -25,4 +27,4 @@ const navBar = (props) => {
     );
 };
 
-export default navBar;
+export default NavBar;

@@ -1,90 +1,81 @@
 export const projectData = [
     {
-        title: "cycycy Bot (Discord Bot)",
-        bgImg: "img/discordbanner.png",
-        description: "A bot to moderate Discord servers with few awesome features. (Bot is in early stages and still in development)",
+        title: 'cycycy Bot (Discord Bot)',
+        bgImg: 'img/discordbanner.png',
+        description: 'A bot to moderate Discord servers with few awesome features. (Bot is still in development and maintained)',
         tech: [
             'ReactJS',
             'NodeJS', 
             'GraphQL',
             'Apollo',
             'MongoDB',
-            'DiscordJS', 
-            'Google Translation API',
-            'WikiPedia API' 
         ],
-        GitHub: "https://github.com/cycycy-bot",
-        Demo: "https://bot.cycycy.me",
+        GitHub: 'https://github.com/cycycy-bot',
+        Demo: 'https://bot.cycycy.me',
         Featured: true,
     },
     {
-        title: "CRIM",
+        title: 'CRIM',
         bgImg: 'img/Crim.png',
-        description: "A fully functional system for providing reservations and storing dental patients information for the CEU Dentistry Department",
+        description: 'A fully functional system for providing reservations and storing dental patients information for the CEU Dentistry Department',
         tech: [
             'HTML5/CSS3', 
             'Javascript', 
             'Java', 
             'MySQL'
         ],
-        GitHub: "https://github.com/galoncyryll/CRIM",
+        GitHub: 'https://github.com/galoncyryll/CRIM',
         Featured: true
     },
     {
-        title: "Face Recognition App",
-        bgImg: "img/brain.PNG",
-        description: "App that detects face from the user's input and records the entries to Postgres Database. The App uses the Clarifai API to get the Face regions of the user's input.",
+        title: 'Healthcare Finance Direct',
+        bgImg: 'img/hfd.PNG',
+        description: 'Healthcare Finance Direct is a patient financing company that works with healthcare providers.',
         tech: [
             'HTML5/CSS3', 
-            'ES6+', 
             'ReactJS', 
-            'NodeJS', 
-            'ExpressJS', 
-            'Clarifai API', 
-            'Heroku'
+            'Typescript',
+            'C#',
+            'ASP.Net'
         ],
-        GitHub: "https://github.com/galoncyryll/face-recognition-app",
-        Demo: "https://face-recognition-p.herokuapp.com/",
+        GitHub: null,
+        Demo: 'https://www.healthcarefinancedirect.com/',
         Featured: true
     },
     {
-        title: "cystore (eCommerce project)",
-        bgImg: "img/shop.PNG",
-        description: "eCommerce phone store with a secure payment system (Paypal)",
+        title: 'Universal Waterfall (Healthcare Finance Direct)',
+        bgImg: 'img/waterfall.PNG',
+        description: 'Universal Waterfall is a new product offering from HFD that gives customers the ability to submit a loan application through a primary lending service and, if denied, have the option of selecting a pay-over-time option with HFD.',
         tech: [
             'HTML5/CSS3', 
-            'ES6+', 
+            'ReactJS',
+        ],
+        GitHub: null,
+        Demo: 'https://originations.healthcarefinancedirect.com/',
+    },
+    {
+        title: 'One Time Payment (Healthcare Finance Direct)',
+        bgImg: 'img/otp.PNG',
+        description: 'For customers that would like to make a quick payment or do not have a customer portal account, they can use our unauthenticated OTP.',
+        tech: [
+            'HTML5/CSS3', 
+            'ReactJS',
+            'Typescript',
+            'GraphQL',
+            'Apollo',
+        ],
+        GitHub: null,
+        Demo: 'https://otp.healthcarefinancedirect.com/makeotp',
+    },
+    {
+        title: 'cystore (Personal project)',
+        bgImg: 'img/shop.PNG',
+        description: 'eCommerce phone store with a secure payment system (Paypal)',
+        tech: [
+            'HTML5/CSS3', 
             'ReactJS', 
-            'PayPal Express Checkout', 
-            'React Context API',
-            'React Router', 
-            'Netlify'
         ],
-        GitHub: "https://github.com/galoncyryll/cystore",
-        Demo: "https://cystore.netlify.com/",
+        GitHub: 'https://github.com/galoncyryll/cystore',
+        Demo: 'https://cystore.netlify.com/',
     },
-    {
-        title: "Startup Landing Page",
-        bgImg: "img/startup.PNG",
-        description: "Startup landing page converted from bootstrap's example site to AMP (Accelerated Mobile Pages)",
-        tech: [
-            'HTML5/CSS3', 
-            'AMP'
-        ],
-        GitHub: "https://github.com/galoncyryll/dopwebtest",
-        Demo: "https://galoncyryll.github.io/dopwebtest",
-    },
-    {
-        title: "GitHub Profile Finder",
-        bgImg: "img/GitHub.PNG",
-        description: "A simple searching app that consumes GitHub's API and shows their 5 latest repositories.",
-        tech: [
-            'HTML5/CSS3', 
-            'ES6+', 
-            'jQuery', 
-            'GitHub API'
-        ],
-        GitHub: "https://github.com/galoncyryll/github-profile-finder",
-        Demo: "https://galoncyryll.github.io/github-profile-finder/"
-    },
-  ];
+];
