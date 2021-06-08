@@ -67,15 +67,4 @@ export const projectData = [
         GitHub: null,
         Demo: 'https://otp.healthcarefinancedirect.com/makeotp',
     },
-    {
-        title: 'cystore (Personal project)',
-        bgImg: 'img/shop.PNG',
-        description: 'eCommerce phone store with a secure payment system (Paypal)',
-        tech: [
-            'HTML5/CSS3', 
-            'ReactJS', 
-        ],
-        GitHub: 'https://github.com/galoncyryll/cystore',
-        Demo: 'https://cystore.netlify.com/',
-    },
 ];
